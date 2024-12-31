@@ -12,14 +12,6 @@ window.addEventListener("load", function () {
   setTimeout(hidePreloader, 1700);
 });
 
-//Hamburger menu
-navBtn.onclick = () => {
-  if (nav.classList.toggle("open")) {
-    navBtnImg.src = "img/icons/close.svg";
-  } else {
-    navBtnImg.src = "img/icons/open.svg";
-  }
-};
 
 //Sticky header & goToTop button
 window.addEventListener("scroll", function () {
@@ -48,10 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
   navBtn.addEventListener('click', () => {
     if (nav.classList.contains('open')) {
       nav.classList.remove('open');
-      navBtnImg.src = 'img/icons/open.svg';
+      navBtnImg.src = window.location.pathname.includes('projects/')
+          ? '../img/icons/open.svg'
+          : 'img/icons/open.svg';
     } else {
       nav.classList.add('open');
-      navBtnImg.src = 'img/icons/close.svg';
+      navBtnImg.src = window.location.pathname.includes('projects/')
+          ? '../img/icons/close.svg'
+          : 'img/icons/close.svg';
     }
   });
 
@@ -60,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
-      navBtnImg.src = 'img/icons/open.svg';
+      navBtnImg.src = '../img/icons/open.svg';
     });
   });
 });
