@@ -32,13 +32,13 @@
           <nav id="nav" class="nav">
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="#home" class="nav-link active">Home</a>
+                <a href="#home" class="nav-link active" data-translate="home">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
+                <a href="#about" class="nav-link" data-translate="about">About</a>
               </li>
               <li class="nav-item">
-                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#projects" class="nav-link" data-translate="projects">Projects</a>
                 <ul class="dropdown">
                   <li><a href="projects/saectf.html" class="dropdown-item">CTFD</a></li>
                   <li><a href="projects/finance-dashboard.html" class="dropdown-item">Finance Dashboard</a></li>
@@ -49,17 +49,19 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link" data-translate="contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <select id="languageSelect" class="language-select">
+                  <option value="en">English</option>
+                  <option value="fr">Français</option>
+                </select>
               </li>
             </ul>
-            <button id="nav-btn" class="nav-btn">
-              <img id="nav-btn-img" src="img/icons/open.svg" alt="Navigation button"/>
-            </button>
           </nav>
         </div>
       </div>
     </header>
-
     <section id="home" class="hero">
       <div class="container container-lg">
         <div
@@ -70,10 +72,9 @@
           data-aos-duration="2000"
         >
           <div class="hero-content">
-            <span class="hero-greeting"> Hello, I am</span>
+            <span class="hero-greeting" data-translate="hello_iam"> Hello, I am</span>
             <h1 class="hero-heading">Raphaël Lambert</h1>
-            <span class="hero-heading-subtitle"
-              >Web Developer</span
+            <span class="hero-heading-subtitle" data-translate="web_developer">Web Developer</span
             >
             <div class="about-social-list">
               <div class="social-links-row">
@@ -101,8 +102,8 @@
             </div>
 
             <div>
-              <a href="#projects" class="btn">My Portfolio</a>
-              <a href="#contact" class="btn btn-white">Contact Me</a>
+              <a href="#projects" class="btn" data-translate="my_portfolio">My Portfolio</a>
+              <a href="#contact" class="btn btn-white" data-translate="contact_me">Contact Me</a>
             </div>
           </div>
           <div class="hero-img">
@@ -119,7 +120,7 @@
     <section id="about" class="about">
       <div class="container">
         <div class="about-title">
-          <h2 class="title">About Me</h2>
+          <h2 class="title" data-translate="about_me">About Me</h2>
         </div>
         <div class="about-row">
           <div class="about-content">
@@ -135,7 +136,7 @@
               Laboriosam.
             </p>
             <div class="about-download-btn">
-              <a href="img/CV.pdf" target="_blank" class="btn btn-white">Download CV</a>
+              <a href="img/CV.pdf" class="btn btn-white" data-translate="download_cv">Download CV</a>
             </div>
           </div>
           <div class="about-skills">
@@ -278,39 +279,27 @@
     <section id="contact" class="contact">
       <div class="container">
         <div class="contact-title">
-          <h2 class="title">Contact</h2>
+          <h2 class="title" data-translate="contact_title">Contact</h2>
         </div>
         <div class="contact-content">
           <p>
-            Tell me about your project.
+            <span data-translate="tell_about_project">Tell me about your project.</span>
             <br />
-            Let's talk and work together!
+            <span data-translate="lets_talk">Let's talk and work together!</span>
           </p>
         </div>
 
         <form data-aos="zoom-in">
           <div class="input-box">
-            <input type="text" name="name" placeholder="Full Name" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
+            <input type="text" placeholder="Full Name" data-translate="full_name" required />
+            <input type="email" placeholder="Email Address" data-translate="email_address" required />
           </div>
 
-          <textarea
-            name="message"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-            required
-          ></textarea>
+          <textarea placeholder="Your Message" data-translate="your_message" required></textarea>
         </form>
 
         <div class="contact-button" data-aos="fade-up">
-          <a href="#!" class="btn btn-red">Send Message</a>
+          <button class="btn btn-red" data-translate="send_message">Send Message</button>
         </div>
       </div>
     </section>
@@ -360,5 +349,6 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="js/main.js"></script>
+    <script src="js/translation.js"></script>
   </body>
 </html>
