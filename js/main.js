@@ -40,3 +40,27 @@ window.addEventListener("scroll", function () {
 AOS.init({
   once: true,
 });
+document.addEventListener('DOMContentLoaded', function() {
+  const nav = document.getElementById('nav');
+  const navBtn = document.getElementById('nav-btn');
+  const navBtnImg = document.getElementById('nav-btn-img');
+
+  navBtn.addEventListener('click', () => {
+    if (nav.classList.contains('open')) {
+      nav.classList.remove('open');
+      navBtnImg.src = 'img/icons/open.svg';
+    } else {
+      nav.classList.add('open');
+      navBtnImg.src = 'img/icons/close.svg';
+    }
+  });
+
+  // Ajoutez un gestionnaire pour fermer le menu au clic sur un lien
+  const navLinks = document.querySelectorAll('.nav-link, .dropdown-item');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      navBtnImg.src = 'img/icons/open.svg';
+    });
+  });
+});
