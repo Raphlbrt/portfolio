@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet Taquin - Raphaël Lambert</title>
+  <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/media.css" />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="../css/projects.css" />
+</head>
+<body>
+<header id="header" class="header">
+  <div class="container container-lg">
+    <div class="header-nav">
+      <a href="../index.html" class="logo">R<span>.</span>Lambert</a>
+      <nav id="nav" class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="../index.html#home" class="nav-link" data-translate="home">Home</a></li>
+          <li class="nav-item"><a href="../index.html#about" class="nav-link" data-translate="about">About</a></li>
+          <li class="nav-item">
+            <a href="../index.html#projects" class="nav-link active" data-translate="projects">Projects</a>
+            <ul class="dropdown">
+              <li><a href="saectf.html" class="dropdown-item">CTFD</a></li>
+              <li><a href="saetaquin.html" class="dropdown-item">SAE - Taquin </a></li>
+              <li><a href="product-design.html" class="dropdown-item">Product Design</a></li>
+              <li><a href="landing-page.html" class="dropdown-item">Landing Page</a></li>
+              <li><a href="portfolio.html" class="dropdown-item">Portfolio</a></li>
+              <li><a href="cosmic-sea.html" class="dropdown-item">Cosmic Sea</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"> <a href="../index.html#contact" class="nav-link" data-translate="contact">Contact</a></li>
+          <li class="nav-item">
+            <select id="languageSelect" class="language-select">
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+            </select>
+          </li>
+        </ul>
+        <button id="nav-btn" class="nav-btn">
+          <img id="nav-btn-img" src="../img/icons/open.svg" alt="Navigation button"/>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding: 12rem 0 5rem;">
+  <div class="container">
+    <div class="projects-title">
+      <h2 class="title" data-translate="project_taquin">Développement du Jeu de Taquin</h2>
+    </div>
+
+    <div class="about-row">
+      <!-- Navigation des sections -->
+      <div class="about-content" style="flex: 25%;">
+        <div class="section-nav">
+          <ul>
+            <li><a href="#contexte" data-translate="project_context">Contexte</a></li>
+            <li><a href="#deroulement" data-translate="project_progress">Déroulement du projet</a></li>
+            <li><a href="#defis" data-translate="technical_challenges">Défis techniques</a></li>
+            <li><a href="#competences" data-translate="skills_acquired">Compétences acquises</a></li>
+            <li><a href="#conclusion" data-translate="conclusion">Conclusion</a></li>
+          </ul>
+          <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/" target="_blank" class="btn">
+            <img src="../img/social_icons/gitlab.png" alt="GitLab" style="height: 20px; width: 20px; filter: invert(1); margin-right: 10px; vertical-align: middle;">
+            <span data-translate="see_on_gitlab">Voir sur GitLab</span>
+          </a>
+          <a href="#" class="btn btn-white" data-translate="link_to_project">Lien vers le projet</a>
+        </div>
+      </div>
+
+      <!-- Contenu principal -->
+      <div class="about-skills" style="flex: 75%; min-width: 0;">
+        <!-- Contexte -->
+        <div id="contexte" class="project-section">
+          <h3 data-translate="project_context">Contexte</h3>
+          <p class="about-descr" data-translate="context_text_p1">
+            Dans le cadre de ma formation en développement informatique, j'ai eu l'opportunité fascinante de créer une implémentation du célèbre jeu du Taquin. Ce projet s'inscrivait dans la SAE 1.01, représentant ma première immersion significative dans la programmation orientée objet en Java.
+          </p>
+        </div>
+
+        <!-- Déroulement -->
+        <div id="deroulement" class="project-section">
+          <h3 data-translate="project_progress">Déroulement du projet</h3>
+          <p class="about-descr" data-translate="progress_text">
+            L'approche adoptée fut méthodique et progressive, débutant par une phase d'analyse approfondie des mécaniques du jeu. La construction s'est articulée autour de plusieurs étapes clés :
+          </p>
+          <ul class="challenge-list">
+            <li data-translate="progress_step_1">Conception initiale des structures de données</li>
+            <li data-translate="progress_step_2">Implémentation des algorithmes de déplacement</li>
+            <li data-translate="progress_step_3">Développement des mécaniques de jeu fondamentales</li>
+            <li data-translate="progress_step_4">Phase intensive de tests et d'optimisation</li>
+          </ul>
+        </div>
+
+        <img class="img-project" src="../img/projects/saetaquin/Execution_taquin.png" alt="Execution_taquin">
+
+        <!-- Défis -->
+        <div id="defis" class="project-section">
+          <h3 data-translate="technical_challenges">Défis techniques</h3>
+          <p class="about-descr" data-translate="challenges_text">
+            Le projet a présenté plusieurs défis stimulants :
+          </p>
+          <ul class="challenge-list">
+            <li data-translate="challenge_1">Modélisation efficiente de la grille de jeu</li>
+            <li data-translate="challenge_2">Implémentation d'un système robuste de validation des mouvements</li>
+            <li data-translate="challenge_3">Optimisation des algorithmes pour une expérience utilisateur fluide</li>
+            <li data-translate="challenge_4">Gestion élégante des états de jeu et des conditions de victoire</li>
+          </ul>
+        </div>
+
+        <!-- Compétences -->
+        <div id="competences" class="project-section">
+          <h3 data-translate="skills_acquired">Compétences acquises</h3>
+          <p class="about-descr" data-translate="skills_text">
+            Cette expérience m'a permis de développer un éventail de compétences cruciales :
+          </p>
+          <ul class="challenge-list">
+            <li data-translate="skill_1">Maîtrise approfondie des fondamentaux de Java</li>
+            <li data-translate="skill_2">Compréhension fine des structures de données</li>
+            <li data-translate="skill_3">Capacité à concevoir et implémenter des algorithmes complexes</li>
+            <li data-translate="skill_4">Méthodologie de développement structurée</li>
+          </ul>
+        </div>
+
+        <!-- Conclusion -->
+        <div id="conclusion" class="project-section">
+          <h3 data-translate="conclusion">Conclusion</h3>
+          <p class="about-descr" data-translate="conclusion_text">
+            Ce projet a constitué une pierre angulaire dans ma formation, consolidant mes bases en programmation tout en m'initiant aux bonnes pratiques du développement logiciel.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation entre projets -->
+    <div style="display: flex; justify-content: space-between; margin-top: 6rem;">
+      <a href="saectf.html" class="btn btn-white" data-translate="previous_project">← Projet Précédent</a>
+      <a href="#" class="btn btn-white" data-translate="next_project">Projet Suivant →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-row">
+      <div class="social-links-row footer-social">
+        <a href="https://github.com/Raphlbrt" target="_blank">
+          <img src="../img/social_icons/github.svg" alt="GitHub"/>
+        </a>
+        <a href="https://www.linkedin.com/in/raphael-lambert/" target="_blank">
+          <img src="../img/social_icons/linkedin.svg" alt="LinkedIn"/>
+        </a>
+        <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/lambertr" target="_blank">
+          <img src="../img/social_icons/gitlab.png" alt="GitLab"/>
+        </a>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; Copyright Raphaël Lambert 2024 | Designed by Raphaël Lambert</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="goToTop" class="goToTop">
+  <a href="#header">
+    <img src="../img/icons/arrow_up.svg" alt="Back to top"/>
+  </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/translationtaquin.js"></script>
+</body>
+</html>
