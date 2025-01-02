@@ -6,6 +6,11 @@
     margin: 2rem;
     color: var(--secondary-accent);
 }
+.project-section h4 {
+    font-size: 1.8rem;
+    margin: 1rem;
+    color: var(--gray-text-color);
+}
 .section-nav {
     position: sticky;
     top: 100px;

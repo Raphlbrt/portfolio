@@ -35,6 +35,7 @@ const translations = {
         send_message: "Send Message",
 
         // SAECTF Page
+        project_ctfd:"Project CTFD",
         project_context: "Context",
         project_progress: "Project Progress",
         technical_challenges: "Technical Challenges",
@@ -101,6 +102,7 @@ const translations = {
         send_message: "Envoyer le Message",
 
         // SAECTF Page
+        project_ctfd:"Projet CTFD",
         project_context: "Contexte",
         project_progress: "Déroulement du Projet",
         technical_challenges: "Défis Techniques",
