@@ -127,75 +127,71 @@
         </div>
         <div class="about-row">
           <div class="about-content">
-            <p class="about-descr">
-              I am lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              ipsam quod nisi voluptatum voluptates asperiores dolorum eos nobis
-              earum, illo et, in eum rem non ratione vel delectus voluptas
-              distinctio. Magni ad iusto reiciendis fugiat nesciunt porro optio
-              odit, voluptatem repellendus aut excepturi eveniet maxime eligendi
-              officiis illo quo minima. <br />
-              <br />
-              Totam, error. Nemo sed perspiciatis architecto quidem sit odit?
-              Laboriosam.
+            <p class="about-descr" data-translate="descr_about_me_1">
+              Hello and welcome to my portfolio!
             </p>
+            <br />
+            <p class="about-descr" data-translate="descr_about_me_2">
+              I am currently a second-year student in the BUT Computer Science program at the IUT of Montpellier. Passionate about web development, I have developed strong skills in PHP, Java, HTML, CSS, and Docker containerization.
+            </p>
+            <br />
+            <p class="about-descr" data-translate="descr_about_me_3">
+              Motivated, curious, and adaptable, I am always eager to take on new challenges and actively contribute to innovative projects. My goal is to continue enhancing my technical skills while engaging in enriching experiences that help me grow both professionally and personally.
+            </p>
+            <br />
+            <p class="about-descr" data-translate="descr_about_me_4">
+              Feel free to explore my projects and reach out for any collaboration or discussion about technology!
+            </p>
+            <br />
             <div class="about-download-btn">
               <a href="img/CV.pdf" class="btn btn-white" data-translate="download_cv">Download CV</a>
             </div>
           </div>
           <div class="about-skills">
             <div class="skill">
-              <div class="skill-title">Web design</div>
-              <div class="skill-percent">95%</div>
-              <div class="skillbar" style="width: 95%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">HTML/CSS</div>
-              <div class="skill-percent">90%</div>
-              <div class="skillbar" style="width: 90%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">JavaScript</div>
-              <div class="skill-percent">65%</div>
-              <div class="skillbar" style="width: 65%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">Photoshop</div>
+              <div class="skill-title">Java, HTML, CSS, JavaFX, SQL</div>
               <div class="skill-percent">80%</div>
               <div class="skillbar" style="width: 80%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">C, PHP</div>
+              <div class="skill-percent">75%</div>
+              <div class="skillbar" style="width: 75%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Git, Docker</div>
+              <div class="skill-percent">75%</div>
+              <div class="skillbar" style="width: 75%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Python, JavaScript</div>
+              <div class="skill-percent">40%</div>
+              <div class="skillbar" style="width: 40%"></div>
             </div>
           </div>
         </div>
         <div class="services-row">
           <div class="service-card" data-aos="fade-down">
             <img class="service-card-img" src="img/services/01.svg" alt="" />
-            <h3 class="service-card-title">UI/UX Design</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio
-              ullam, ipsum magnam expedita animi unde sapiente dolore alias
-              provident inventore, ut itaque aliquid ex eos deleniti laborum
-              nesciunt natus.
+            <h3 class="service-card-title" data-translate="title_service_frontend">Frontend Development</h3>
+            <p data-translate="service_frontend">
+              I specialize in creating intuitive and visually appealing web interfaces using HTML, CSS, and JavaScript. Through academic projects, I’ve honed my ability to design user-friendly experiences, balancing functionality and aesthetics for engaging web solutions.
             </p>
           </div>
 
           <div class="service-card" data-aos="fade-down">
             <img class="service-card-img" src="img/services/02.svg" alt="" />
-            <h3 class="service-card-title">Frontend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio
-              ullam, ipsum magnam expedita animi unde sapiente dolore alias
-              provident inventore, ut itaque aliquid ex eos deleniti laborum
-              nesciunt natus.
+            <h3 class="service-card-title" data-translate="title_service_backend">Backend Development</h3>
+            <p data-translate="service_backend">
+              With strong skills in PHP, Java, and SQL, I focus on building robust and scalable backend systems. My expertise includes handling server-side logic and database management to ensure seamless performance for dynamic web applications.
             </p>
           </div>
 
           <div class="service-card" data-aos="fade-down">
             <img class="service-card-img" src="img/services/03.svg" alt="" />
-            <h3 class="service-card-title">Content Writing</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio
-              ullam, ipsum magnam expedita animi unde sapiente dolore alias
-              provident inventore, ut itaque aliquid ex eos deleniti laborum
-              nesciunt natus.
+            <h3 class="service-card-title" data-translate="title_service_methodology">Development methodologies</h3>
+            <p data-translate="service_methodology">
+              I am familiar with tools like Git and principles such as Agile, fostering collaborative and efficient project development. My adaptability and problem-solving skills allow me to embrace frameworks like Scrum for successful project execution.
             </p>
           </div>
         </div>
@@ -292,18 +288,22 @@
           </p>
         </div>
 
-        <form data-aos="zoom-in">
+        <form action="https://formsubmit.co/raphael.lambert@etu.umontpellier.fr" method="POST" data-aos="zoom-in">
+          <input type="hidden" name="_subject" value="Nouveau message du portfolio">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://raphlbrt.github.io">
+
           <div class="input-box">
-            <input type="text" placeholder="Full Name" data-translate="full_name" required />
-            <input type="email" placeholder="Email Address" data-translate="email_address" required />
+            <input type="text" name="name" placeholder="Full Name" data-translate="full_name" required />
+            <input type="email" name="email" placeholder="Email Address" data-translate="email_address" required />
           </div>
 
-          <textarea placeholder="Your Message" data-translate="your_message" required></textarea>
-        </form>
+          <textarea name="message" placeholder="Your Message" data-translate="your_message" required></textarea>
 
-        <div class="contact-button" data-aos="fade-up">
-          <button class="btn btn-red" data-translate="send_message">Send Message</button>
-        </div>
+          <div class="contact-button" data-aos="fade-up">
+            <button type="submit" class="btn btn-red" data-translate="send_message">Send Message</button>
+          </div>
+        </form>
       </div>
     </section>
 

@@ -390,6 +390,7 @@ h5 {
   font-size: 1.5rem;
   line-height: 1.7;
   text-align: center;
+  margin: 2rem;
   color: var(--gray-text-color);
 }
 

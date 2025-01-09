@@ -16,11 +16,19 @@ const translations = {
         about_me: "About Me",
         download_cv: "Download CV",
         web_design: "Web design",
+        descr_about_me_1:"Hello and welcome to my portfolio !",
+        descr_about_me_2:"I am currently a second-year student in the BUT Computer Science program at the IUT of Montpellier. Passionate about web development, I have developed strong skills in PHP, Java, HTML, CSS, and Docker containerization.",
+        descr_about_me_3:"Motivated, curious, and adaptable, I am always eager to take on new challenges and actively contribute to innovative projects. My goal is to continue enhancing my technical skills while engaging in enriching experiences that help me grow both professionally and personally.",
+        descr_about_me_4:"Feel free to explore my projects !",
 
         // Services
-        uiux_design: "UI/UX Design",
-        frontend_dev: "Frontend Development",
-        content_writing: "Content Writing",
+        title_service_frontend: "Frontend Development",
+        title_service_backend: "Backend Development",
+        title_service_methodology: "Development Methodologies",
+        service_frontend:"I specialize in creating intuitive and visually appealing web interfaces using HTML, CSS, and JavaScript. Through academic projects, I’ve honed my ability to design user-friendly experiences, balancing functionality and aesthetics for engaging web solutions.",
+        service_backend:"With strong skills in PHP, Java, and SQL, I focus on building robust and scalable backend systems. My expertise includes handling server-side logic and database management to ensure seamless performance for dynamic web applications.",
+        service_methodology:"I am familiar with tools like Git and principles such as Agile, fostering collaborative and efficient project development. My adaptability and problem-solving skills allow me to embrace frameworks like Scrum for successful project execution.",
+
 
         // Projects section
         project_title: "Projects",
@@ -83,11 +91,18 @@ const translations = {
         about_me: "À Propos de Moi",
         download_cv: "Télécharger CV",
         web_design: "Web design",
+        descr_about_me_1:"Bonjour et bienvenue sur mon portfolio !",
+        descr_about_me_2:"Je suis actuellement étudiant en deuxième année de BUT Informatique à l’IUT de Montpellier. Passionné par le développement web, j’ai acquis des compétences solides en PHP, Java, HTML, CSS, ainsi qu’en conteneurisation avec Docker.",
+        descr_about_me_3:"Motivé, curieux et adaptable, je suis toujours prêt à relever de nouveaux défis et à contribuer activement à des projets innovants. Mon objectif est de continuer à développer mes compétences techniques tout en participant à des expériences enrichissantes qui me permettront de grandir, tant sur le plan professionnel que personnel.",
+        descr_about_me_4:"N’hésitez pas à explorer mes projets !",
 
         // Services
-        uiux_design: "Design UI/UX",
-        frontend_dev: "Développement Frontend",
-        content_writing: "Rédaction de Contenu",
+        title_service_frontend: "Développement Frontend",
+        title_service_backend: "Développement Backend",
+        title_service_methodology: "Méthodes de Développement",
+        service_frontend:"Je me spécialise dans la création d’interfaces web intuitives et attrayantes en utilisant HTML, CSS et JavaScript. Grâce à des projets académiques, j’ai perfectionné ma capacité à concevoir des expériences utilisateur alliant fonctionnalité et esthétique.",
+        service_backend:"Avec de solides compétences en PHP, Java et SQL, je me concentre sur la construction de systèmes backend robustes et évolutifs. Mon expertise inclut la gestion de la logique côté serveur et des bases de données pour assurer des performances fluides aux applications web dynamiques.",
+        service_methodology:"Je maîtrise des outils comme Git et applique des principes tels qu’Agile, favorisant des projets collaboratifs et efficaces. Mon adaptabilité et mes compétences en résolution de problèmes me permettent d’intégrer des cadres comme Scrum pour mener à bien les projets.",
 
         // Projects section
         project_title: "Projets",
