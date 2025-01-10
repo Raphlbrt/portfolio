@@ -490,6 +490,7 @@ h5 {
 .contact {
   padding: 10rem 0;
   text-align: center;
+  background-color: var(--primary-bg-color);
 }
 
 .contact-title {
@@ -716,5 +717,255 @@ h5 {
 
   .nav.open .dropdown {
     display: block;
+  }
+}
+/* Pour career */
+.career {
+  position: relative;
+  padding: 100px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.career-title {
+  text-align: center;
+  margin-bottom: 80px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.career-title.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.career-title h2 {
+  font-size: 2.5em;
+  color: #000;
+  margin: 0;
+}
+
+.career-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  width: 2px;
+  background-color: #e31b6d;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.8s ease;
+}
+
+.timeline-line.grow {
+  transform: scaleY(1);
+}
+
+.timeline-item {
+  opacity: 0;
+  position: relative;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  transform: translateY(30px);
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item.hiding {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.timeline-year {
+  color: #e31b6d;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-description {
+  margin: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #e31b6d;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.timeline-item.visible .timeline-dot {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Alternance des contenus */
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  gap: 20px;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  grid-column: 1 / 2;
+  justify-self: end;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  grid-column: 3 / 4;
+  justify-self: start;
+}
+
+.timeline-dot {
+  grid-column: 2 / 3;
+  justify-self: center;
+}
+/* Ajoutez ces styles à votre CSS existant */
+
+/* Ajustements pour les grands écrans */
+@media (min-width: 1200px) {
+  .timeline-content {
+    max-width: 500px;
+  }
+}
+
+/* Tablettes et écrans moyens */
+@media (max-width: 992px) {
+  .timeline-item {
+    grid-template-columns: 1fr 20px 1fr;
+    gap: 15px;
+  }
+
+  .timeline-content {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .career-title h2 {
+    font-size: 3.2rem;
+  }
+}
+
+/* Petites tablettes et grands mobiles */
+@media (max-width: 768px) {
+  .career {
+    padding: 60px 0;
+  }
+
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    padding-left: 50px;
+  }
+
+  .timeline-line {
+    left: 20px;
+  }
+
+  .timeline-dot {
+    left: 20px;
+    top: 20px;
+  }
+
+  .timeline-content {
+    width: calc(100% - 40px);
+    margin-left: 0;
+  }
+
+  /* Réinitialiser l'alternance pour mobile */
+  .timeline-item:nth-child(odd) .timeline-content,
+  .timeline-item:nth-child(even) .timeline-content {
+    grid-column: auto;
+    justify-self: auto;
+    margin: 0;
+  }
+
+  .timeline-year {
+    font-size: 1.6rem;
+  }
+
+  .timeline-description {
+    font-size: 1.4rem;
+  }
+
+  .career-title {
+    margin-bottom: 40px;
+  }
+
+  .career-title h2 {
+    font-size: 2.8rem;
+  }
+}
+
+/* Petits mobiles */
+@media (max-width: 480px) {
+  .career {
+    padding: 40px 0;
+  }
+
+  .timeline-item {
+    padding-left: 40px;
+    margin-bottom: 40px;
+  }
+
+  .timeline-line {
+    left: 15px;
+  }
+
+  .timeline-dot {
+    left: 15px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .timeline-content {
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+  }
+
+  .timeline-year {
+    font-size: 1.4rem;
+  }
+
+  .timeline-description {
+    font-size: 1.3rem;
+  }
+
+  .career-title h2 {
+    font-size: 2.4rem;
   }
 }
