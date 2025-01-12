@@ -39,6 +39,22 @@ const translations = {
         career_2022_2024: "BUT Computer Science, Montpellier 1st year",
         career_2022: "High School Diploma STI2D Option SIN, With Honors, Lycée Champolion LATTES",
 
+        // Future Vision Section
+        future_vision: "Vision and Perspectives",
+        future_vision_p1: "In my professional journey, I adopt a reflective and strategic approach while staying attentive to developments in the digital sector.",
+        future_vision_p2: "My current priority is to consolidate my knowledge in Computer Science and secure an enriching work-study program for my third year, allowing me to gain concrete professional experience.",
+        future_vision_p3: "For my future career path, I'm exploring two main options: pursuing further studies or direct professional integration. I'm particularly interested in web development and project management, two constantly evolving fields offering great growth opportunities.",
+
+        // Career Cards
+        short_term_goals: "Short Term Goals",
+        short_term_description: "Academic excellence in BUT and search for a stimulating work-study program for my final year, combining theory and professional practice.",
+
+        career_interests: "Professional Interests",
+        career_interests_description: "Web development and project management, two complementary fields where I wish to deepen my skills and contribute to innovative projects.",
+
+        long_term_vision: "Long Term Vision",
+        long_term_description: "Stay informed about developments in the digital sector while developing solid expertise, whether through continuous training or professional experience.",
+
         // Contact section
         contact_title: "Contact",
         tell_about_project: "Tell me about your project.",
@@ -118,6 +134,22 @@ const translations = {
         career_2024: "BUT Informatique, Montpellier 2ème année",
         career_2022_2024: "BUT Informatique, Montpellier 1ère année",
         career_2022: "Bac STI2D Option SIN, Mention Bien, Lycée Champolion LATTES",
+
+        // Future Vision Section
+        future_vision: "Vision et Perspectives",
+        future_vision_p1: "Dans mon parcours professionnel, j'adopte une approche réflexive et stratégique, tout en restant attentif aux évolutions du secteur numérique.",
+        future_vision_p2: "Ma priorité actuelle est de consolider mes acquis en BUT Informatique et de décrocher une alternance enrichissante pour ma troisième année, me permettant d'acquérir une expérience professionnelle concrète.",
+        future_vision_p3: "Pour la suite de mon parcours, j'explore deux voies principales : la poursuite d'études ou l'insertion professionnelle directe. Mon intérêt se porte particulièrement vers le développement web et la gestion de projet, deux domaines en constante évolution offrant de belles perspectives d'évolution.",
+
+        // Career Cards
+        short_term_goals: "Objectifs Court Terme",
+        short_term_description: "Excellence académique en BUT et recherche d'une alternance stimulante pour ma dernière année, permettant d'allier théorie et pratique professionnelle.",
+
+        career_interests: "Intérêts Professionnels",
+        career_interests_description: "Développement web et gestion de projet, deux domaines complémentaires où je souhaite approfondir mes compétences et contribuer à des projets innovants.",
+
+        long_term_vision: "Vision Long Terme",
+        long_term_description: "Rester en veille sur les évolutions du secteur numérique tout en développant une expertise solide, que ce soit par la formation continue ou l'expérience professionnelle.",
 
         // Contact section
         contact_title: "Contact",
