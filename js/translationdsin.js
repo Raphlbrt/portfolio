@@ -105,6 +105,7 @@ const translations = {
         skills_7: "Technical documentation and knowledge transfer",
         skills_8: "Implementation of critical competencies AC21.01, AC22.01, AC23.03",
 
+        download_rapport: "Download internship report",
         // Footer
         university_name: "University of Montpellier",
         dsin_name: "Department of Information Systems and Digital Technology",
@@ -216,6 +217,7 @@ const translations = {
         skills_7: "Documentation technique et transfert de connaissances",
         skills_8: "Mise en œuvre des apprentissages critiques AC21.01, AC22.01, AC23.03",
 
+        download_rapport: "Télécharger rapport",
         // Footer
         university_name: "Université de Montpellier",
         dsin_name: "Direction du Système d'Information et du Numérique",
