@@ -36,6 +36,7 @@ const translations = {
 
         // Career section
         career_path: "Career Path",
+        career_2025: "DSIN Internship - University of Montpellier",
         career_2024: "BUT Computer Science, Montpellier 2nd year",
         career_2022_2024: "BUT Computer Science, Montpellier 1st year",
         career_2022: "High School Diploma STI2D Option SIN, With Honors, Lycée Champolion LATTES",
@@ -133,6 +134,7 @@ const translations = {
 
         // Career section
         career_path: "Parcours",
+        career_2025: "Stage DSIN - Université de Montpellier",
         career_2024: "BUT Informatique, Montpellier 2ème année",
         career_2022_2024: "BUT Informatique, Montpellier 1ère année",
         career_2022: "Bac STI2D Option SIN, Mention Bien, Lycée Champolion LATTES",
