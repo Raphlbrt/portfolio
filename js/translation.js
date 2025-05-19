@@ -5,6 +5,7 @@ const translations = {
         about: "About",
         projects: "Projects",
         contact: "Contact",
+        portfolio_learning: "Learning Portfolio",
 
         // Hero section
         hello_iam: "Hello, I am",
@@ -102,6 +103,7 @@ const translations = {
         about: "À propos",
         projects: "Projets",
         contact: "Contact",
+        portfolio_learning: "Portfolio d'apprentissage",
 
         // Hero section
         hello_iam: "Bonjour, je suis",

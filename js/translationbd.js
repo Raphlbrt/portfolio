@@ -10,6 +10,7 @@ const translations = {
         technical_challenges: "Technical Challenges",
         skills_acquired: "Skills Acquired",
         conclusion: "Conclusion",
+        portfolio_learning: "Learning Portfolio",
 
         // Project specific
         project_title: "Development of a Database for Music Streaming Application",
@@ -64,6 +65,7 @@ const translations = {
         about: "À propos",
         projects: "Projets",
         contact: "Contact",
+        portfolio_learning: "Portfolio d'apprentissage",
         project_context: "Contexte",
         project_progress: "Déroulement du Projet",
         technical_challenges: "Défis Techniques",

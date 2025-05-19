@@ -9,6 +9,7 @@ const translations = {
         link_to_project: "Link to the project",
         previous_project: "← Previous Project",
         next_project: "Next Project →",
+        portfolio_learning: "Learning Portfolio",
 
         // Project Title and Sections
         project_viesafe: "SAE - Controversy",

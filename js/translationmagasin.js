@@ -5,6 +5,7 @@ const translations = {
         about: "About",
         projects: "Projects",
         contact: "Contact",
+        portfolio_learning: "Learning Portfolio",
 
         // E-commerce Project Page
         project_ecommerce: "E-commerce Platform Development",

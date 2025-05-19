@@ -8,6 +8,7 @@ const translations = {
         documentation: "Documentation",
         help: "Help",
         login: "Login",
+        portfolio_learning: "Learning Portfolio",
 
         // Project page title
         project_title: "DSIN Internship - SAPIENS Migration",

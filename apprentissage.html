@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio d'Apprentissage - Raphaël Lambert</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/apprentissage.css" />
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container container-lg">
+        <div class="header-nav">
+            <a href="index.html" class="logo">R<span>.</span>Lambert</a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#home" class="nav-link" data-translate="home">Home</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link" data-translate="about">About</a></li>
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link" data-translate="projects">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="projects/saectf.html" class="dropdown-item">CTFD</a></li>
+                            <li><a href="projects/saetrains.html" class="dropdown-item">SAE - Trains </a></li>
+                            <li><a href="projects/saebd.html" class="dropdown-item">SAE - BD Streaming Musical</a></li>
+                            <li><a href="projects/saemagasin.html" class="dropdown-item">Plateforme E-commerce</a></li>
+                            <li><a href="projects/saecontroverse.html" class="dropdown-item">SAE - Controverse</a></li>
+                            <li><a href="projects/saetournoi.html" class="dropdown-item">SAE - Charlie's festival adventure</a></li>
+                            <li><a href="projects/stagedsin.html" class="dropdown-item">Stage DSIN - SA.P.I.E.N.S</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="apprentissage.html" class="nav-link active" data-translate="portfolio_learning">Portfolio d'apprentissage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link" data-translate="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <select id="languageSelect" class="language-select">
+                            <option value="fr">Français</option>
+                            <option value="en">English</option>
+                        </select>
+                    </li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                    <img id="nav-btn-img" src="img/icons/open.svg" alt="Navigation button"/>
+                </button>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="hero" style="padding: 12rem 0 5rem;">
+    <div class="container">
+        <div class="projects-title">
+            <h2 class="title" data-translate="portfolio_title">Portfolio d'Apprentissage</h2>
+        </div>
+
+        <div class="about-row">
+            <!-- Navigation des sections -->
+            <div class="about-content" style="flex: 25%;">
+                <div class="section-nav">
+                    <ul>
+                        <li><a href="#introduction" data-translate="nav_introduction">Introduction</a></li>
+                        <li><a href="#realiser" data-translate="nav_realiser">Compétence "Réaliser"</a></li>
+                        <li><a href="#optimiser" data-translate="nav_optimiser">Compétence "Optimiser"</a></li>
+                        <li><a href="#administrer" data-translate="nav_administrer">Compétence "Administrer"</a></li>
+                        <li><a href="#conclusion" data-translate="nav_conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="about-skills" style="flex: 75%; min-width: 0;">
+                <!-- Introduction -->
+                <div id="introduction" class="intro-section">
+                    <h3 class="introduction-title" data-translate="intro_title">Analyse Réflexive des Compétences Niveau 2</h3>
+                    <p class="about-descr" data-translate="intro_p1">
+                        Dans cette section essentielle de mon portfolio, je propose une analyse réflexive et critique des compétences acquises durant mon parcours en BUT Informatique parcours IAMSI (Intégration d'Applications et Management du Système d'Information). Je m'attacherai particulièrement aux trois compétences qui culminent au niveau 2 dans ce parcours, en démontrant par des preuves concrètes et une argumentation structurée comment j'ai développé et validé ces apprentissages.
+                    </p>
+                    <p class="about-descr" data-translate="intro_p2">
+                        Cette démarche s'inscrit dans une perspective de documentation rigoureuse de ma trajectoire de développement professionnel, où chaque compétence est mise en relation avec des traces tangibles issues de mes différentes mises en situation professionnelle.
+                    </p>
+                    <p class="about-descr" data-translate="intro_p3">
+                        Dans le parcours IAMSI, trois compétences s'arrêtent au niveau 2 :
+                    </p>
+                    <ul class="challenge-list">
+                        <li data-translate="intro_competence1"><strong>Réaliser</strong> (Niveau 2 : Partir des exigences et aller jusqu'à une application complète)</li>
+                        <li data-translate="intro_competence2"><strong>Optimiser</strong> (Niveau 2 : Sélectionner les algorithmes adéquats pour répondre à un problème donné)</li>
+                        <li data-translate="intro_competence3"><strong>Administrer</strong> (Niveau 2 : Déployer des services dans une architecture réseau)</li>
+                    </ul>
+                </div>
+
+                <!-- Réaliser -->
+                <div id="realiser" class="competence-section">
+                    <h3 class="competence-title" data-translate="realiser_title">1. Compétence "Réaliser" (Niveau 2)</h3>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="realiser_ac1_title">AC1 : Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</h4>
+                        <span class="ce" data-translate="realiser_ac1_ce">en respectant les besoins décrits par le client (CE1.01)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac1_projet1_title">Projet E-commerce</h5>
+                            <p data-translate="realiser_ac1_projet1_text">En tant que développeur principal, j'ai dû analyser les besoins exprimés par le client et les transformer en spécifications fonctionnelles précises. Le <strong>système de gestion de panier</strong> que j'ai développé illustre cette compétence : partant d'un besoin général ("gestion dynamique des quantités"), j'ai élaboré des spécifications détaillées incluant la mise à jour automatique des prix, la gestion des stocks et les notifications utilisateur.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MVC</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac1_projet2_title">Stage DSIN - Migration SA.P.I.E.N.S</h5>
+                            <p data-translate="realiser_ac1_projet2_text">J'ai dû traduire les besoins de migration du système SAPIENS en spécifications techniques précises. La complexité du projet m'a appris à décomposer un problème global en composantes fonctionnelles distinctes et à établir des priorités d'implémentation.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Drupal</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Symfony</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="realiser_ac2_title">AC2 : Appliquer des principes d'accessibilité et d'ergonomie</h4>
+                        <span class="ce" data-translate="realiser_ac2_ce">en respectant les besoins décrits par le client (CE1.01)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac2_projet1_title">Projet Controverse</h5>
+                            <p data-translate="realiser_ac2_projet1_text">Ce projet sur la vie privée et la sécurité nationale m'a sensibilisé à l'importance de l'accessibilité. J'ai conçu une interface responsive avec une attention particulière à la lisibilité et à la navigation intuitive. Cette expérience m'a fait comprendre que l'ergonomie n'est pas un "plus" mais une exigence fondamentale pour garantir une expérience utilisateur inclusive.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac2_projet2_title">Charlie's Festival Adventure</h5>
+                            <p data-translate="realiser_ac2_projet2_text">J'ai intégré des principes de design universel pour garantir l'accessibilité de l'information relative au festival, notamment dans la conception des modules d'inscription aux tournois. Cette attention a renforcé ma conviction que l'ergonomie est un aspect fondamental de tout développement centré utilisateur.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Responsive Design</span>
+                                <span class="tech-tag">UX/UI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="realiser_ac3_title">AC3 : Adopter de bonnes pratiques de conception et de programmation</h4>
+                        <span class="ce" data-translate="realiser_ac3_ce">en veillant à la qualité du code et à sa documentation (CE1.04)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac3_projet1_title">Développement du jeu 'Trains'</h5>
+                            <p data-translate="realiser_ac3_projet1_text">J'ai implémenté une architecture MVC rigoureuse, avec une séparation claire des responsabilités entre les différentes couches de l'application. Cette expérience m'a permis d'apprécier pleinement les bénéfices d'une bonne architecture logicielle : maintenabilité accrue, simplicité des tests, et facilité d'évolution.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">JavaFX</span>
+                                <span class="tech-tag">Design Patterns</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac3_projet2_title">Stage DSIN</h5>
+                            <p data-translate="realiser_ac3_projet2_text">J'ai adopté des standards de qualité rigoureux pour la migration Drupal 7 vers Drupal 10. La documentation méticuleuse de chaque module et l'application de conventions de nommage cohérentes ont considérablement facilité la compréhension et la maintenance du code par d'autres développeurs.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Clean Code</span>
+                                <span class="tech-tag">Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="realiser_ac4_title">AC4 : Vérifier et valider la qualité de l'application par les tests</h4>
+                        <span class="ce" data-translate="realiser_ac4_ce">en choisissant les ressources techniques appropriées (CE1.06)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac4_projet1_title">Projet CTFD pour Yggame</h5>
+                            <p data-translate="realiser_ac4_projet1_text">J'ai mis en place une stratégie de tests exhaustive pour les défis de cybersécurité que j'ai développés. Cette approche méthodique m'a permis d'identifier et de corriger des failles potentielles avant le déploiement, garantissant ainsi la fiabilité des défis proposés aux participants.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Tests fonctionnels</span>
+                                <span class="tech-tag">Sécurité</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="realiser_ac4_projet2_title">Projet E-commerce</h5>
+                            <p data-translate="realiser_ac4_projet2_text">J'ai implémenté des tests unitaires et d'intégration pour valider le fonctionnement du système d'authentification et du panier d'achat. Cette démarche m'a fait comprendre l'importance cruciale des tests dans le cycle de développement, non seulement pour détecter les bugs, mais aussi pour documenter le comportement attendu du système.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Tests unitaires</span>
+                                <span class="tech-tag">Tests d'intégration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Optimiser -->
+                <div id="optimiser" class="competence-section">
+                    <h3 class="competence-title" data-translate="optimiser_title">2. Compétence "Optimiser" (Niveau 2)</h3>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="optimiser_ac1_title">AC1 : Choisir des structures de données complexes adaptées au problème</h4>
+                        <span class="ce" data-translate="optimiser_ac1_ce">en formalisant et modélisant des situations complexes (CE2.01)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac1_projet1_title">Développement du jeu 'Trains'</h5>
+                            <p data-translate="optimiser_ac1_projet1_text">Pour représenter efficacement le plateau de jeu et les connexions ferroviaires, j'ai implémenté une structure de graphe pondéré, où chaque nœud représentait une ville et chaque arête une connexion potentielle. Cette approche a nécessité une formalisation précise et m'a permis de gérer efficacement les calculs de chemins optimaux.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Graphes</span>
+                                <span class="tech-tag">Structures de données</span>
+                                <span class="tech-tag">Java</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac1_projet2_title">Base de Données pour Streaming Musical</h5>
+                            <p data-translate="optimiser_ac1_projet2_text">J'ai conçu un modèle entité-association capable de représenter des relations complexes entre artistes, albums, morceaux et playlists. La modélisation de hiérarchies dans les playlists a particulièrement nécessité une réflexion approfondie sur les structures de données les plus adaptées.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Modélisation</span>
+                                <span class="tech-tag">Oracle</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="optimiser_ac2_title">AC2 : Utiliser des techniques algorithmiques adaptées pour des problèmes complexes</h4>
+                        <span class="ce" data-translate="optimiser_ac2_ce">en s'appuyant sur des schémas de raisonnement (CE2.03)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac2_projet1_title">Jeu 'Trains'</h5>
+                            <p data-translate="optimiser_ac2_projet1_text">J'ai implémenté l'algorithme de Dijkstra pour calculer les chemins optimaux entre les villes, en prenant en compte différents critères d'optimisation (distance, coût, temps). Cette implémentation m'a permis de comprendre les subtilités des algorithmes de parcours de graphes et d'apprécier leur puissance dans la résolution de problèmes concrets.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Algorithmes</span>
+                                <span class="tech-tag">Dijkstra</span>
+                                <span class="tech-tag">Optimisation</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac2_projet2_title">Projet CTFD</h5>
+                            <p data-translate="optimiser_ac2_projet2_text">J'ai conçu plusieurs défis de cybersécurité nécessitant des algorithmes sophistiqués, notamment un défi de stéganographie utilisant la manipulation des chunks PNG. Cette expérience m'a poussé à explorer des techniques algorithmiques avancées et à comprendre leur application dans un contexte de sécurité informatique.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Stéganographie</span>
+                                <span class="tech-tag">Manipulation de bits</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="optimiser_ac3_title">AC3 : Comprendre les enjeux et moyens de sécurisation des données et du code</h4>
+                        <span class="ce" data-translate="optimiser_ac3_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac3_projet1_title">Projet E-commerce</h5>
+                            <p data-translate="optimiser_ac3_projet1_text">J'ai implémenté un système d'authentification robuste incluant des protections contre les attaques par force brute, et j'ai veillé à sécuriser les transactions et les données utilisateur. Ce travail m'a sensibilisé à l'importance cruciale de la sécurité dans le développement web moderne.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Sécurité</span>
+                                <span class="tech-tag">Authentification</span>
+                                <span class="tech-tag">Protection des données</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac3_projet2_title">Projet CTFD</h5>
+                            <p data-translate="optimiser_ac3_projet2_text">En développant des défis d'injection SQL et de manipulation de cookies, j'ai dû comprendre les vulnérabilités pour mieux les exploiter dans un cadre éducatif. Cette démarche m'a fourni une perspective unique sur les enjeux de sécurisation du code et des données.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">SQL Injection</span>
+                                <span class="tech-tag">Cookie Security</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac3_projet3_title">Stage DSIN</h5>
+                            <p data-translate="optimiser_ac3_projet3_text">J'ai mis en œuvre des mécanismes de chiffrement pour les données sensibles et sécurisé l'interaction avec le LDAP universitaire. Ces expériences pratiques ont consolidé ma compréhension des principes fondamentaux de la sécurité informatique.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Chiffrement</span>
+                                <span class="tech-tag">LDAP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="optimiser_ac4_title">AC4 : Évaluer l'impact environnemental et sociétal des solutions proposées</h4>
+                        <span class="ce" data-translate="optimiser_ac4_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac4_projet1_title">Projet Controverse</h5>
+                            <p data-translate="optimiser_ac4_projet1_text">Ce projet m'a offert l'opportunité de réfléchir aux implications éthiques et sociétales des technologies numériques, notamment concernant la tension entre vie privée et sécurité nationale. Cette réflexion m'a sensibilisé à l'importance d'une démarche responsable dans le développement technologique.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Éthique</span>
+                                <span class="tech-tag">Vie privée</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="optimiser_ac4_projet2_title">Charlie's Festival Adventure</h5>
+                            <p data-translate="optimiser_ac4_projet2_text">Nous avons intégré une dimension environnementale en optimisant l'infrastructure technique pour réduire l'empreinte carbone de l'événement. Cette approche m'a fait prendre conscience de la responsabilité des développeurs dans la conception de solutions durables.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Green IT</span>
+                                <span class="tech-tag">Développement durable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Administrer -->
+                <div id="administrer" class="competence-section">
+                    <h3 class="competence-title" data-translate="administrer_title">3. Compétence "Administrer" (Niveau 2)</h3>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="administrer_ac1_title">AC1 : Concevoir et développer des applications communicantes</h4>
+                        <span class="ce" data-translate="administrer_ac1_ce">en sécurisant le système d'information (CE3.01)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac1_projet1_title">Projet CTFD pour Yggame</h5>
+                            <p data-translate="administrer_ac1_projet1_text">J'ai dû intégrer la plateforme CTFd avec les conteneurs Docker hébergeant les différents défis, en établissant des mécanismes de communication sécurisés. Cette expérience m'a permis de comprendre les enjeux de l'interopérabilité et de la sécurisation des échanges entre composants d'un système distribué.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">API</span>
+                                <span class="tech-tag">Architecture distribuée</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac1_projet2_title">Stage DSIN</h5>
+                            <p data-translate="administrer_ac1_projet2_text">J'ai développé des modules de communication avec des API externes (notamment Ivanti pour l'inventaire du matériel informatique), en implémentant des mécanismes d'authentification avancés et de gestion des erreurs. Ce travail m'a confronté aux défis réels des applications communicantes en environnement d'entreprise.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">API</span>
+                                <span class="tech-tag">Interopérabilité</span>
+                                <span class="tech-tag">Gestion d'erreurs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="administrer_ac2_title">AC2 : Utiliser des serveurs et des services réseaux virtualisés</h4>
+                        <span class="ce" data-translate="administrer_ac2_ce">en offrant une qualité de service optimale (CE3.02)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac2_projet1_title">Projet CTFD</h5>
+                            <p data-translate="administrer_ac2_projet1_text">J'ai déployé la plateforme CTFd et ses défis sur un serveur VPS en utilisant Docker, créant un environnement modulaire où chaque défi était isolé dans son propre conteneur. Cette approche m'a fait découvrir les avantages considérables de la conteneurisation en termes de flexibilité, d'isolation et de reproductibilité des environnements.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">VPS</span>
+                                <span class="tech-tag">Conteneurisation</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac2_projet2_title">Stage DSIN</h5>
+                            <p data-translate="administrer_ac2_projet2_text">J'ai utilisé l'outil DDev pour créer un environnement de développement conteneurisé spécifique à l'écosystème Drupal. Cette expérience m'a permis d'apprécier comment la virtualisation peut standardiser les environnements de développement et éliminer les problèmes de compatibilité.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">DDev</span>
+                                <span class="tech-tag">Virtualisation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="apprentissage-critique">
+                        <h4 data-translate="administrer_ac3_title">AC3 : Sécuriser les services et données d'un système</h4>
+                        <span class="ce" data-translate="administrer_ac3_ce">en sécurisant le système d'information (CE3.01) et en appliquant les normes en vigueur (CE3.03)</span>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac3_projet1_title">Projet E-commerce</h5>
+                            <p data-translate="administrer_ac3_projet1_text">J'ai implémenté diverses mesures de sécurité pour protéger les données sensibles des utilisateurs, notamment un système de validation d'email pour l'inscription et des protections contre les attaques par force brute. Ce travail m'a sensibilisé à l'importance de la sécurité des données personnelles et à la responsabilité des développeurs dans leur protection.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Validation de données</span>
+                                <span class="tech-tag">Protection contre les attaques</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac3_projet2_title">Base de Données pour Streaming Musical</h5>
+                            <p data-translate="administrer_ac3_projet2_text">J'ai mis en place des mécanismes de contrôle d'accès et de confidentialité conformes aux bonnes pratiques du secteur, notamment en ce qui concerne le respect des réglementations sur la protection des données personnelles.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Contrôle d'accès</span>
+                                <span class="tech-tag">Conformité RGPD</span>
+                            </div>
+                        </div>
+
+                        <div class="projet-exemple">
+                            <h5 data-translate="administrer_ac3_projet3_title">Stage DSIN</h5>
+                            <p data-translate="administrer_ac3_projet3_text">J'ai dû appliquer rigoureusement les normes de sécurité en vigueur dans le contexte universitaire, notamment pour la gestion des données académiques et la synchronisation avec le LDAP. Cette expérience m'a fait comprendre l'importance d'aligner les pratiques de sécurisation avec les cadres réglementaires existants.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Normes de sécurité</span>
+                                <span class="tech-tag">Cadre réglementaire</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conclusion -->
+                <div id="conclusion" class="conclusion-section">
+                    <h3 class="competence-title" data-translate="conclusion_title">Conclusion</h3>
+                    <p class="about-descr" data-translate="conclusion_p1">
+                        L'analyse réflexive de mon parcours concernant ces trois compétences fondamentales du BUT Informatique m'a permis de prendre conscience du chemin parcouru et des compétences acquises. Chaque projet a contribué de manière spécifique à mon développement professionnel, me confrontant à des défis variés et me poussant à adopter des approches innovantes pour les résoudre.
+                    </p>
+                    <p class="about-descr" data-translate="conclusion_p2">
+                        La diversité des contextes d'application, des projets académiques aux expériences professionnelles en stage, m'a permis de développer une compréhension nuancée et approfondie de ces compétences. J'ai particulièrement apprécié comment chaque nouvelle expérience venait enrichir et transformer ma compréhension des concepts théoriques, les ancrant dans une réalité pratique et complexe.
+                    </p>
+                    <p class="about-descr" data-translate="conclusion_p3">
+                        Je considère avoir atteint un niveau satisfaisant dans ces trois compétences de niveau 2, tout en restant conscient que le développement professionnel est un processus continu. Les bases solides acquises durant ce parcours constituent un excellent tremplin pour mes futures expériences professionnelles et mon évolution dans le domaine de l'informatique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="social-links-row footer-social">
+                <a href="https://github.com/Raphlbrt" target="_blank">
+                    <img src="img/social_icons/github.svg" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/raphael-lambert/" target="_blank">
+                    <img src="img/social_icons/linkedin.svg" alt="LinkedIn"/>
+                </a>
+                <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/lambertr" target="_blank">
+                    <img src="img/social_icons/gitlab.png" alt="GitLab"/>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p data-translate="footer_copyright">&copy; Copyright Raphaël Lambert 2024 | Designed by Raphaël Lambert</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="goToTop" class="goToTop">
+    <a href="#header">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"/>
+    </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/translationapprentissage.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animation des sections au scroll
+        const sections = document.querySelectorAll('.competence-section, .intro-section, .conclusion-section');
+
+        const fadeInOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -100px 0px"
+        };
+
+        const fadeInOnScroll = new IntersectionObserver(function(entries, fadeInOnScroll) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                    fadeInOnScroll.unobserve(entry.target);
+                }
+            });
+        }, fadeInOptions);
+
+        sections.forEach(section => {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            fadeInOnScroll.observe(section);
+        });
+
+        // Navigation smooth scroll
+        document.querySelectorAll('.section-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - 100,
+                    behavior: 'smooth'
+                });
+
+                // Mise en évidence de la section
+                targetElement.style.backgroundColor = 'rgba(111, 29, 27, 0.05)';
+                setTimeout(() => {
+                    targetElement.style.backgroundColor = 'transparent';
+                    targetElement.style.transition = 'background-color 1s ease';
+                }, 1000);
+            });
+        });
+
+        // Active section in navigation
+        const sectionNavLinks = document.querySelectorAll('.section-nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 150)) {
+                    current = "#" + section.getAttribute('id');
+                }
+            });
+
+            sectionNavLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    });
+</script>
+<script>
+    // Add active class to section nav links
+    document.querySelectorAll('.section-nav a').forEach(link => {
+        link.addEventListener('click', function() {
+            document.querySelectorAll('.section-nav a').forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    // Add CSS for active nav links
+    const style = document.createElement('style');
+    style.textContent = `
+    .section-nav a.active {
+      color: var(--secondary-accent);
+      font-weight: bold;
+      position: relative;
+    }
+
+    .section-nav a.active::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: var(--secondary-accent);
+    }
+  `;
+    document.head.appendChild(style);
+</script>
+</body>
+</html>
