@@ -149,12 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('wheel', handleScroll, { passive: false });
         if (hasAnimated) {
           showAllItems();
+        } else {
+          // Déclencher automatiquement l'animation quand la section devient visible
+          setTimeout(showAllItems, 500);
         }
       } else {
         window.removeEventListener('wheel', handleScroll);
       }
     });
-  }, { threshold: 0.3 });
+  }, { threshold: 0.1 }); // Réduire le seuil à 0.1 (10% visible) au lieu de 0.3 (30%)
 
   observer.observe(careerSection);
 });
