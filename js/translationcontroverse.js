@@ -51,6 +51,7 @@ const translations = {
         about: "À propos",
         projects: "Projets",
         contact: "Contact",
+        portfolio_learning: "Portfolio d'apprentissage",
         see_on_github: "Voir sur GitHub",
         link_to_project: "Lien vers le projet",
         previous_project: "← Projet Précédent",

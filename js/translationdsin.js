@@ -118,6 +118,7 @@ const translations = {
         about: "À propos",
         projects: "Projets",
         contact: "Contact",
+        portfolio_learning: "Portfolio d'apprentissage",
         documentation: "Documentation",
         help: "Aide",
         login: "Connexion",
