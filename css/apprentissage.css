@@ -16,7 +16,7 @@
 }
 
 .apprentissage-critique {
-    background-color: rgba(111, 29, 27, 0.1);
+    background-color: rgba(111, 29, 27, 0.05);
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 2.5rem;
@@ -40,21 +40,65 @@
     margin-bottom: 1.5rem;
 }
 
+/* Styles pour les blocs projet avec images */
+.projet-exemple-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
 .projet-exemple {
-    background-color: rgba(12, 22, 24, 0.05);
+    background-color: rgba(12, 22, 24, 0.03);
     padding: 1.5rem;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.projet-exemple:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgba(12, 22, 24, 0.05);
+    border-color: rgba(111, 29, 27, 0.2);
+}
+
+.projet-exemple-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.projet-exemple:hover .projet-exemple-img {
+    transform: scale(1.05);
+}
+
+.projet-exemple-content {
+    flex: 1;
+    min-width: 0;
 }
 
 .projet-exemple h5 {
     font-size: 1.8rem;
     color: var(--primary-accent);
     margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.projet-exemple:hover h5 {
+    color: var(--secondary-accent);
 }
 
 .projet-exemple p {
     font-size: 1.6rem;
+    line-height: 1.6;
 }
 
 .competence-conclusion {
@@ -81,4 +125,35 @@
     flex-wrap: wrap;
     gap: 0.8rem;
     margin: 1rem 0;
+}
+
+.tech-tag {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    margin: 0.3rem 0;
+    border-radius: 20px;
+    background-color: rgba(111, 29, 27, 0.1);
+    color: var(--secondary-accent);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Media queries pour mobile */
+@media (max-width: 768px) {
+    .projet-exemple {
+        flex-direction: column;
+    }
+
+    .projet-exemple-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .competence-title {
+        font-size: 2.4rem;
+    }
+
+    .apprentissage-critique h4 {
+        font-size: 1.8rem;
+    }
 }
