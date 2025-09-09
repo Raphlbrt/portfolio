@@ -36,6 +36,8 @@ const translations = {
 
         // Career section
         career_path: "Career Path",
+        career_2025_3: "BUT Computer Science, Montpellier 3rd year",
+        career_2025_2:"DSIN Developer - University of Montpellier",
         career_2025: "DSIN Internship - University of Montpellier",
         career_2024: "BUT Computer Science, Montpellier 2nd year",
         career_2022_2024: "BUT Computer Science, Montpellier 1st year",
@@ -134,6 +136,8 @@ const translations = {
 
         // Career section
         career_path: "Parcours",
+        career_2025_3: "BUT Informatique, Montpellier 3ème année",
+        career_2025_2:"Developpeur DSIN - Université de Montpellier",
         career_2025: "Stage DSIN - Université de Montpellier",
         career_2024: "BUT Informatique, Montpellier 2ème année",
         career_2022_2024: "BUT Informatique, Montpellier 1ère année",

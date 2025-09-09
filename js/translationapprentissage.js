@@ -7,7 +7,7 @@ const translations = {
         contact: "Contact",
         portfolio_learning: "Learning Portfolio",
         portfolio_title: "Learning Portfolio",
-        footer_copyright: "© Copyright Raphaël Lambert 2024 | Designed by Raphaël Lambert",
+        footer_copyright: "© Copyright Raphaël Lambert 2025 | Designed by Raphaël Lambert",
 
         // Navigation sidebar
         nav_introduction: "Introduction",
@@ -128,7 +128,7 @@ const translations = {
         contact: "Contact",
         portfolio_learning: "Portfolio d'apprentissage",
         portfolio_title: "Portfolio d'Apprentissage",
-        footer_copyright: "© Copyright Raphaël Lambert 2024 | Designed by Raphaël Lambert",
+        footer_copyright: "© Copyright Raphaël Lambert 2025 | Designed by Raphaël Lambert",
 
         // Navigation sidebar
         nav_introduction: "Introduction",
