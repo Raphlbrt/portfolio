@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuit de l'Info 2025 - Raphaël Lambert</title>
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/projects.css" />
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container container-lg">
+        <div class="header-nav">
+            <a href="../index.html" class="logo">R<span>.</span>Lambert</a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html#home" class="nav-link" data-translate="home">Home</a></li>
+                    <li class="nav-item"><a href="../index.html#about" class="nav-link" data-translate="about">About</a></li>
+                    <li class="nav-item">
+                        <a href="../index.html#projects" class="nav-link active" data-translate="projects">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="saectf.html" class="dropdown-item">CTFD</a></li>
+                            <li><a href="saetrains.html" class="dropdown-item">SAE - Trains</a></li>
+                            <li><a href="saebd.html" class="dropdown-item">SAE - BD Streaming Musical</a></li>
+                            <li><a href="saemagasin.html" class="dropdown-item">Plateforme E-commerce</a></li>
+                            <li><a href="saecontroverse.html" class="dropdown-item">SAE - Controverse</a></li>
+                            <li><a href="saetournoi.html" class="dropdown-item">SAE - Charlie's festival adventure</a></li>
+                            <li><a href="stagedsin.html" class="dropdown-item">Stage DSIN - SA.P.I.E.N.S</a></li>
+                            <li><a href="myavatar.html" class="dropdown-item">MyAvatar - Service de Gestion d'Avatars</a></li>
+                            <li><a href="nuitinfo2025.html" class="dropdown-item">Nuit de l'Info 2025 - NIRD Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../apprentissage.html" class="nav-link" data-translate="portfolio_learning">Portfolio d'apprentissage</a>
+                    </li>
+                    <li class="nav-item"> <a href="../index.html#contact" class="nav-link" data-translate="contact">Contact</a></li>
+                    <li class="nav-item">
+                        <select id="languageSelect" class="language-select">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                    <img id="nav-btn-img" src="../img/icons/open.svg" alt="Navigation button"/>
+                </button>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="hero" style="padding: 12rem 0 5rem;">
+    <div class="container">
+        <div class="projects-title">
+            <h2 class="title" data-translate="project_title">Nuit de l'Info 2025 - NIRD Quiz</h2>
+            <p style="text-align: center; color: var(--secondary-accent); font-size: 1.8rem; margin-top: 1rem; font-weight: 600;" data-translate="first_place_badge">
+                🏆 1ère place du défi Hair'Gonomie (72 équipes participantes)
+            </p>
+        </div>
+
+        <div class="about-row">
+            <!-- Navigation des sections -->
+            <div class="about-content" style="flex: 25%;">
+                <div class="section-nav">
+                    <ul>
+                        <li><a href="#contexte" data-translate="project_context">Contexte</a></li>
+                        <li><a href="#deroulement" data-translate="project_progress">Déroulement du projet</a></li>
+                        <li><a href="#defis" data-translate="technical_challenges">Défis techniques</a></li>
+                        <li><a href="#competences" data-translate="skills_acquired">Compétences acquises</a></li>
+                        <li><a href="#conclusion" data-translate="conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="about-skills" style="flex: 75%; min-width: 0;">
+                <a href="https://github.com/Raphlbrt/nuitinfo2025" target="_blank" class="btn">
+                    <img src="../img/social_icons/github.svg" alt="GitHub" style="height: 20px; width: 20px; filter: invert(1); margin-right: 10px; vertical-align: middle;">
+                    <span data-translate="see_on_github">Voir sur GitHub</span>
+                </a>
+                <a href="https://nuitinfo.rlbrt.fr/" target="_blank" class="btn btn-white" data-translate="link_to_project">Lien vers le projet</a>
+
+                <!-- Contexte -->
+                <div id="contexte" class="project-section">
+                    <h3 data-translate="project_context">Contexte</h3>
+                    <p class="about-descr" data-translate="context_text_p1">
+                        La Nuit de l'Info est un hackathon national se déroulant sur une nuit entière (4-5 décembre 2025). J'ai formé une équipe de deux développeurs avec Alexandre SIMONGIOVANNI pour créer une application web sensibilisant à l'obsolescence programmée et aux alternatives durables (Linux, logiciels libres) pour les établissements scolaires.
+                    </p>
+                    <p class="about-descr" data-translate="context_text_p2">
+                        Nous avons relevé le défi "Hair'Gonomie" proposé par CAPCOD, qui nous invitait à repenser radicalement l'ergonomie d'une interface en cassant les conventions établies. Notre concept : transformer l'interface elle-même en métaphore vivante de l'obsolescence, en la faisant se dégrader progressivement pour faire ressentir le problème plutôt que d'en parler.
+                    </p>
+                </div>
+
+                <!-- Déroulement -->
+                <div id="deroulement" class="project-section">
+                    <h3 data-translate="project_progress">Déroulement du projet</h3>
+                    <ul class="challenge-list" data-translate="progress_list">
+                        <li data-translate="progress_list.0"><strong>Navigation circulaire radiale</strong> éliminant les biais de position des listes verticales</li>
+                        <li data-translate="progress_list.1"><strong>Système de 17 dégradations cumulatives</strong> s'aggravant à chaque mauvaise réponse</li>
+                        <li data-translate="progress_list.2"><strong>Abolition du retour arrière</strong> pour refléter l'irréversibilité de l'obsolescence</li>
+                        <li data-translate="progress_list.3"><strong>Barre de "santé du système"</strong> régressant au lieu d'une barre de progression</li>
+                        <li data-translate="progress_list.4"><strong>7 niveaux de dégradation progressive</strong> simulant le vieillissement d'un système</li>
+                        <li data-translate="progress_list.5"><strong>Page 404 Chrome simulée</strong> comme état final d'obsolescence totale</li>
+                        <li data-translate="progress_list.6"><strong>Technologies vanilla</strong> (HTML5, CSS3, JavaScript pur) pour une itération rapide</li>
+                        <li data-translate="progress_list.7"><strong>Design moderne initial</strong> (glassmorphism, gradients) rendant la dégradation plus frappante</li>
+                    </ul>
+                </div>
+
+                <!-- Défis -->
+                <div id="defis" class="project-section">
+                    <h3 data-translate="technical_challenges">Défis techniques</h3>
+                    <ul class="challenge-list" data-translate="challenges_list">
+                        <li data-translate="challenges_list.0"><strong>Équilibre friction/utilisabilité</strong> : créer une interface dégradée mais fonctionnelle</li>
+                        <li data-translate="challenges_list.1"><strong>Architecture CSS en cascade</strong> : gérer l'accumulation des dégradations sans conflits</li>
+                        <li data-translate="challenges_list.2"><strong>Développement sous pression</strong> : décisions rapides et priorisation dans un contexte chronométré</li>
+                        <li data-translate="challenges_list.3"><strong>Compromis d'accessibilité assumés</strong> : justifier l'inconfort comme outil pédagogique</li>
+                    </ul>
+                </div>
+
+                <!-- Compétences -->
+                <div id="competences" class="project-section">
+                    <h3 data-translate="skills_acquired">Compétences acquises</h3>
+                    <ul class="challenge-list" data-translate="skills_list">
+                        <li data-translate="skills_list.0"><strong>Design thinking inversé et UX subversive</strong></li>
+                        <li data-translate="skills_list.1"><strong>Architecture CSS avancée et effets cumulatifs</strong></li>
+                        <li data-translate="skills_list.2"><strong>Développement rapide et prise de décision sous pression</strong></li>
+                        <li data-translate="skills_list.3"><strong>Pédagogie expérientielle et narration interactive</strong></li>
+                        <li data-translate="skills_list.4"><strong>Collaboration intensive en binôme</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Conclusion -->
+                <div id="conclusion" class="project-section">
+                    <h3 data-translate="conclusion">Conclusion</h3>
+                    <p class="about-descr" data-translate="conclusion_text">
+                        Notre approche a remporté la première place du défi Hair'Gonomie parmi 72 équipes, validant notre concept d'interface comme vecteur pédagogique. En créant intentionnellement de la friction utilisateur, nous avons transformé un simple quiz en expérience immersive : l'utilisateur ne lit pas sur l'obsolescence programmée, il la vit et la ressent. Cette réalisation illustre parfaitement la mission du projet NIRD de sensibilisation aux enjeux du numérique responsable et durable.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation entre projets -->
+        <div style="display: flex; justify-content: space-between; margin-top: 6rem;">
+            <a href="myavatar.html" class="btn btn-white" data-translate="previous_project">← Projet Précédent</a>
+            <a href="saectf.html" class="btn btn-white" data-translate="next_project">Projet Suivant →</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="social-links-row footer-social">
+                <a href="https://github.com/Raphlbrt" target="_blank">
+                    <img src="../img/social_icons/github.svg" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/raphael-lambert/" target="_blank">
+                    <img src="../img/social_icons/linkedin.svg" alt="LinkedIn"/>
+                </a>
+                <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/lambertr" target="_blank">
+                    <img src="../img/social_icons/gitlab.png" alt="GitLab"/>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; Copyright Raphaël Lambert 2025 | Designed by Raphaël Lambert</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="goToTop" class="goToTop">
+    <a href="#header">
+        <img src="../img/icons/arrow_up.svg" alt="Back to top"/>
+    </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/translationnuitinfo.js"></script>
+</body>
+</html>

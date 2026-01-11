@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyAvatar - Raphaël Lambert</title>
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/projects.css" />
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container container-lg">
+        <div class="header-nav">
+            <a href="../index.html" class="logo">R<span>.</span>Lambert</a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html#home" class="nav-link" data-translate="home">Home</a></li>
+                    <li class="nav-item"><a href="../index.html#about" class="nav-link" data-translate="about">About</a></li>
+                    <li class="nav-item">
+                        <a href="../index.html#projects" class="nav-link active" data-translate="projects">Projects</a>
+                        <ul class="dropdown">
+                            <li><a href="saectf.html" class="dropdown-item">CTFD</a></li>
+                            <li><a href="saetrains.html" class="dropdown-item">SAE - Trains</a></li>
+                            <li><a href="saebd.html" class="dropdown-item">SAE - BD Streaming Musical</a></li>
+                            <li><a href="saemagasin.html" class="dropdown-item">Plateforme E-commerce</a></li>
+                            <li><a href="saecontroverse.html" class="dropdown-item">SAE - Controverse</a></li>
+                            <li><a href="saetournoi.html" class="dropdown-item">SAE - Charlie's festival adventure</a></li>
+                            <li><a href="stagedsin.html" class="dropdown-item">Stage DSIN - SA.P.I.E.N.S</a></li>
+                            <li><a href="myavatar.html" class="dropdown-item">MyAvatar - Service de Gestion d'Avatars</a></li>
+                            <li><a href="nuitinfo2025.html" class="dropdown-item">Nuit de l'Info 2025 - NIRD Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../apprentissage.html" class="nav-link" data-translate="portfolio_learning">Portfolio d'apprentissage</a>
+                    </li>
+                    <li class="nav-item"> <a href="../index.html#contact" class="nav-link" data-translate="contact">Contact</a></li>
+                    <li class="nav-item">
+                        <select id="languageSelect" class="language-select">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                    <img id="nav-btn-img" src="../img/icons/open.svg" alt="Navigation button"/>
+                </button>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="hero" style="padding: 12rem 0 5rem;">
+    <div class="container">
+        <div class="projects-title">
+            <h2 class="title" data-translate="project_title">MyAvatar - Service de Gestion d'Avatars Universels</h2>
+        </div>
+
+        <div class="about-row">
+            <!-- Navigation des sections -->
+            <div class="about-content" style="flex: 25%;">
+                <div class="section-nav">
+                    <ul>
+                        <li><a href="#contexte" data-translate="project_context">Contexte</a></li>
+                        <li><a href="#deroulement" data-translate="project_progress">Déroulement du projet</a></li>
+                        <li><a href="#defis" data-translate="technical_challenges">Défis techniques</a></li>
+                        <li><a href="#competences" data-translate="skills_acquired">Compétences acquises</a></li>
+                        <li><a href="#conclusion" data-translate="conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="about-skills" style="flex: 75%; min-width: 0;">
+                <a href="https://github.com/Raphlbrt/Project-MyAvatar" target="_blank" class="btn">
+                    <img src="../img/social_icons/github.svg" alt="GitHub" style="height: 20px; width: 20px; filter: invert(1); margin-right: 10px; vertical-align: middle;">
+                    <span data-translate="see_on_github">Voir sur GitHub</span>
+                </a>
+                <a href="https://project-myavatar.rlbrt.fr/" target="_blank" class="btn btn-white" data-translate="link_to_project">Lien vers le projet</a>
+
+                <!-- Contexte -->
+                <div id="contexte" class="project-section">
+                    <h3 data-translate="project_context">Contexte</h3>
+                    <p class="about-descr" data-translate="context_text_p1">
+                        Dans le cadre de la ressource R5.A.05 - Programmation Avancée Web, j'ai développé MyAvatar, une application web inspirée de Gravatar permettant aux utilisateurs d'associer une image de profil à leurs adresses email, accessible universellement via une URL unique générée par hachage SHA256.
+                    </p>
+                    <p class="about-descr" data-translate="context_text_p2">
+                        Réalisé en équipe de quatre développeurs avec Symfony, ce projet a permis d'approfondir la sécurité web (authentification, gestion sécurisée des fichiers), la validation AJAX en temps réel, et la conception d'API REST. Mon rôle s'est concentré sur le système CRUD des avatars et la gestion des permissions.
+                    </p>
+                </div>
+
+                <!-- Déroulement -->
+                <div id="deroulement" class="project-section">
+                    <h3 data-translate="project_progress">Déroulement du projet</h3>
+
+                    <h4 data-translate="phase_1_title">Fonctionnalités Principales</h4>
+                    <ul class="challenge-list">
+                        <li data-translate="progress_list_1">Authentification sécurisée avec Symfony Security et hachage bcrypt</li>
+                        <li data-translate="progress_list_2">Validation AJAX en temps réel pour vérifier la disponibilité des identifiants</li>
+                        <li data-translate="progress_list_3">Système CRUD complet pour la gestion des avatars (upload, modification, suppression)</li>
+                        <li data-translate="progress_list_4">Stockage sécurisé des fichiers hors répertoire web avec accès contrôlé par BinaryFileResponse</li>
+                        <li data-translate="progress_list_5">Génération automatique de hachages SHA256 pour chaque email (route publique /avatar/{hash})</li>
+                        <li data-translate="progress_list_6">Support des emails secondaires avec hachages multiples</li>
+                        <li data-translate="progress_list_7">Gestion de la visibilité des profils avec système de permissions (utilisateurs/admins)</li>
+                        <li data-translate="progress_list_8">Interface d'administration et mode maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- Défis -->
+                <div id="defis" class="project-section">
+                    <h3 data-translate="technical_challenges">Défis Techniques</h3>
+                    <ul class="challenge-list">
+                        <li data-translate="challenges_list.0">Sécurisation du stockage et servir les fichiers via BinaryFileResponse avec contrôle des permissions</li>
+                        <li data-translate="challenges_list.1">Gestion des hachages SHA256 multiples avec recalculation automatique lors des modifications</li>
+                        <li data-translate="challenges_list.2">API REST avec validation AJAX et debouncing pour optimiser les performances</li>
+                        <li data-translate="challenges_list.3">Architecture de permissions à 3 niveaux (anonyme, authentifié, admin) via Symfony voters</li>
+                    </ul>
+                </div>
+
+                <!-- Compétences -->
+                <div id="competences" class="project-section">
+                    <h3 data-translate="skills_acquired">Compétences Acquises</h3>
+                    <ul class="challenge-list">
+                        <li data-translate="skills_list.0">Maîtrise de Symfony (Security, Forms, Doctrine ORM, Twig)</li>
+                        <li data-translate="skills_list.1">Sécurité web : gestion sécurisée des fichiers, hachage SHA256/bcrypt, prévention OWASP</li>
+                        <li data-translate="skills_list.2">Développement d'API REST avec validation asynchrone</li>
+                        <li data-translate="skills_list.3">Architecture de BDD relationnelle avec Doctrine</li>
+                        <li data-translate="skills_list.4">Travail collaboratif avec Git et déploiement Docker</li>
+                    </ul>
+                </div>
+
+                <!-- Conclusion -->
+                <div id="conclusion" class="project-section">
+                    <h3 data-translate="conclusion">Conclusion</h3>
+                    <p class="about-descr" data-translate="conclusion_text">
+                        MyAvatar m'a permis de développer des compétences solides en Symfony et en sécurité web, tout en expérimentant le travail collaboratif en équipe. Le projet, déployé en production et accessible publiquement, démontre ma capacité à concevoir et livrer une application web complète et sécurisée, de la conception à la mise en ligne.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation entre projets -->
+        <div style="display: flex; justify-content: space-between; margin-top: 6rem;">
+            <a href="stagedsin.html" class="btn btn-white" data-translate="previous_project">← Projet Précédent</a>
+            <a href="saectf.html" class="btn btn-white" data-translate="next_project">Projet Suivant →</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="social-links-row footer-social">
+                <a href="https://github.com/Raphlbrt" target="_blank">
+                    <img src="../img/social_icons/github.svg" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/raphael-lambert/" target="_blank">
+                    <img src="../img/social_icons/linkedin.svg" alt="LinkedIn"/>
+                </a>
+                <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/lambertr" target="_blank">
+                    <img src="../img/social_icons/gitlab.png" alt="GitLab"/>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; Copyright Raphaël Lambert 2025 | Designed by Raphaël Lambert</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="goToTop" class="goToTop">
+    <a href="#header">
+        <img src="../img/icons/arrow_up.svg" alt="Back to top"/>
+    </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/translationmyavatar.js"></script>
+</body>
+</html>
