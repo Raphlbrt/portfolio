@@ -3,24 +3,21 @@ name: Deploy Portfolio
 on:
   push:
     branches:
-      - main  # ou master, selon votre branche principale
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Trigger deployment webhook
-        run: |
-          curl -X POST https://votre-domaine.com/webhook \
-            -H "Content-Type: application/json" \
-            -H "X-Hub-Signature-256: sha256=$(echo -n '${{ toJson(github) }}' | openssl dgst -sha256 -hmac '${{ secrets.WEBHOOK_SECRET }}' | sed 's/^.* //')" \
-            -d '{
-              "repository": {
-                "name": "portfolio"
-              },
-              "ref": "${{ github.ref }}",
-              "pusher": {
-                "name": "${{ github.actor }}"
-              }
-            }'
+      - name: Deploy to server via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          port: ${{ secrets.SERVER_PORT }}
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /var/www/sites/portfolio
+            git pull origin main
+            chown -R www-data:www-data /var/www/sites/portfolio
