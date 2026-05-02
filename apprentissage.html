@@ -30,13 +30,17 @@
                     <li class="nav-item">
                         <a href="index.html#projects" class="nav-link" data-translate="projects">Projects</a>
                         <ul class="dropdown">
+                            <li><a href="projects/mirukai.html" class="dropdown-item">Mirukai - Recommandation d'Animés</a></li>
+                            <li><a href="projects/capitalwars.html" class="dropdown-item">Capital Wars</a></li>
                             <li><a href="projects/saectf.html" class="dropdown-item">CTFD</a></li>
-                            <li><a href="projects/saetrains.html" class="dropdown-item">SAE - Trains </a></li>
+                            <li><a href="projects/saetrains.html" class="dropdown-item">SAE - Trains</a></li>
                             <li><a href="projects/saebd.html" class="dropdown-item">SAE - BD Streaming Musical</a></li>
                             <li><a href="projects/saemagasin.html" class="dropdown-item">Plateforme E-commerce</a></li>
                             <li><a href="projects/saecontroverse.html" class="dropdown-item">SAE - Controverse</a></li>
                             <li><a href="projects/saetournoi.html" class="dropdown-item">SAE - Charlie's festival adventure</a></li>
                             <li><a href="projects/stagedsin.html" class="dropdown-item">Stage DSIN - SA.P.I.E.N.S</a></li>
+                            <li><a href="projects/myavatar.html" class="dropdown-item">MyAvatar - Service de Gestion d'Avatars</a></li>
+                            <li><a href="projects/nuitinfo2025.html" class="dropdown-item">Nuit de l'Info 2025 - NIRD Quiz</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -61,7 +65,7 @@
 </header>
 
 <section class="hero" style="padding: 12rem 0 5rem;">
-    <div class="container">
+    <div class="container container-lg">
         <div class="projects-title">
             <h2 class="title" data-translate="portfolio_title">Portfolio d'Apprentissage</h2>
         </div>
@@ -72,9 +76,8 @@
                 <div class="section-nav">
                     <ul>
                         <li><a href="#introduction" data-translate="nav_introduction">Introduction</a></li>
-                        <li><a href="#optimiser" data-translate="nav_optimiser">Compétence "Optimiser"</a></li>
-                        <li><a href="#administrer" data-translate="nav_administrer">Compétence "Administrer"</a></li>
-                        <li><a href="#gerer" data-translate="nav_gerer">Compétence "Gérer"</a></li>
+                        <li><a href="#niveau2" class="nav-accordion-link" data-translate="nav_niveau2">Compétences Niveau 2</a></li>
+                        <li><a href="#niveau3" class="nav-accordion-link" data-translate="nav_niveau3">Compétences Niveau 3</a></li>
                         <li><a href="#conclusion" data-translate="nav_conclusion">Conclusion</a></li>
                     </ul>
                 </div>
@@ -82,11 +85,12 @@
 
             <!-- Contenu principal -->
             <div class="about-skills" style="flex: 75%; min-width: 0;">
+
                 <!-- Introduction -->
                 <div id="introduction" class="intro-section">
-                    <h3 class="introduction-title" data-translate="intro_title">Analyse Réflexive des Compétences Niveau 2</h3>
+                    <h3 class="introduction-title" data-translate="intro_title">Analyse Réflexive des Compétences</h3>
                     <p class="about-descr" data-translate="intro_p1">
-                        Dans cette section essentielle de mon portfolio, je propose une analyse réflexive et critique des compétences acquises durant mon parcours en BUT Informatique parcours IAMSI (Intégration d'Applications et Management du Système d'Information). Je m'attacherai particulièrement aux trois compétences qui culminent au niveau 2 dans ce parcours, en démontrant par des preuves concrètes et une argumentation structurée comment j'ai développé et validé ces apprentissages.
+                        Dans cette section essentielle de mon portfolio, je propose une analyse réflexive et critique des compétences acquises durant mon parcours en BUT Informatique parcours IAMSI (Intégration d'Applications et Management du Système d'Information). Je documente ma trajectoire de développement en mobilisant des traces concrètes issues de l'ensemble de mes mises en situation professionnelle.
                     </p>
                     <p class="about-descr" data-translate="intro_p2">
                         Cette démarche s'inscrit dans une perspective de documentation rigoureuse de ma trajectoire de développement professionnel, où chaque compétence est mise en relation avec des traces tangibles issues de mes différentes mises en situation professionnelle.
@@ -99,399 +103,804 @@
                         <li data-translate="intro_competence2"><strong>Administrer</strong> (Niveau 2 : Déployer des services dans une architecture réseau)</li>
                         <li data-translate="intro_competence3"><strong>Gérer</strong> (Niveau 2 : Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité)</li>
                     </ul>
+                    <p class="about-descr" data-translate="intro_p4">
+                        Trois compétences atteignent le niveau 3 en fin de formation :
+                    </p>
+                    <ul class="challenge-list">
+                        <li data-translate="intro_competence4"><strong>Réaliser</strong> (Niveau 3 : Adapter des applications sur un ensemble de supports embarqué, web, mobile, IoT…)</li>
+                        <li data-translate="intro_competence5"><strong>Conduire</strong> (Niveau 3 : Participer à la conception et à la mise en œuvre d'un projet système d'information)</li>
+                        <li data-translate="intro_competence6"><strong>Collaborer</strong> (Niveau 3 : Manager une équipe informatique)</li>
+                    </ul>
                 </div>
 
-                <!-- Optimiser -->
-                <div id="optimiser" class="competence-section">
-                    <h3 class="competence-title" data-translate="optimiser_title">1. Compétence "Optimiser" (Niveau 2)</h3>
+                <!-- ===================== ACCORDÉON NIVEAU 2 ===================== -->
+                <div class="accordion-section" id="niveau2">
+                    <button class="accordion-header" data-target="content-niveau2">
+                        <span data-translate="niveau2_section_title">Compétences Niveau 2 - Semestres 1-4 (Optimiser · Administrer · Gérer)</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content" id="content-niveau2">
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="optimiser_ac1_title">AC1 : Choisir des structures de données complexes adaptées au problème</h4>
-                        <span class="ce" data-translate="optimiser_ac1_ce">en formalisant et modélisant des situations complexes (CE2.01)</span>
+                        <!-- Optimiser -->
+                        <div id="optimiser" class="competence-section">
+                            <h3 class="competence-title" data-translate="optimiser_title">1. Compétence "Optimiser" (Niveau 2)</h3>
 
-                        <a href="projects/saetrains.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac1_projet1_title">Développement du jeu 'Trains'</h5>
-                                    <p data-translate="optimiser_ac1_projet1_text">Pour représenter efficacement le plateau de jeu et les connexions ferroviaires, j'ai implémenté une structure de graphe pondéré, où chaque nœud représentait une ville et chaque arête une connexion potentielle. Cette approche a nécessité une formalisation précise et m'a permis de gérer efficacement les calculs de chemins optimaux.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Graphes</span>
-                                        <span class="tech-tag">Structures de données</span>
-                                        <span class="tech-tag">Java</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="optimiser_ac1_title">AC1 : Choisir des structures de données complexes adaptées au problème</h4>
+                                <span class="ce" data-translate="optimiser_ac1_ce">en formalisant et modélisant des situations complexes (CE2.01)</span>
+
+                                <a href="projects/saetrains.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac1_projet1_title">Développement du jeu 'Trains'</h5>
+                                            <p data-translate="optimiser_ac1_projet1_text">Pour représenter efficacement le plateau de jeu et les connexions ferroviaires, j'ai implémenté une structure de graphe pondéré, où chaque nœud représentait une ville et chaque arête une connexion potentielle. Cette approche a nécessité une formalisation précise et m'a permis de gérer efficacement les calculs de chemins optimaux.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Graphes</span>
+                                                <span class="tech-tag">Structures de données</span>
+                                                <span class="tech-tag">Java</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/trains/video.gif" alt="Développement du jeu 'Trains'" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/trains/video.gif" alt="Développement du jeu 'Trains'" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saebd.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac1_projet2_title">Base de Données pour Streaming Musical</h5>
-                                    <p data-translate="optimiser_ac1_projet2_text">J'ai conçu un modèle entité-association capable de représenter des relations complexes entre artistes, albums, morceaux et playlists. La modélisation de hiérarchies dans les playlists a particulièrement nécessité une réflexion approfondie sur les structures de données les plus adaptées.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">SQL</span>
-                                        <span class="tech-tag">Modélisation</span>
-                                        <span class="tech-tag">Oracle</span>
+                                <a href="projects/saebd.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac1_projet2_title">Base de Données pour Streaming Musical</h5>
+                                            <p data-translate="optimiser_ac1_projet2_text">J'ai conçu un modèle entité-association capable de représenter des relations complexes entre artistes, albums, morceaux et playlists. La modélisation de hiérarchies dans les playlists a particulièrement nécessité une réflexion approfondie sur les structures de données les plus adaptées.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">SQL</span>
+                                                <span class="tech-tag">Modélisation</span>
+                                                <span class="tech-tag">Oracle</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAEBD/ModeleEA.png" alt="Modèle Base de Données" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAEBD/ModeleEA.png" alt="Modèle Base de Données" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="optimiser_ac2_title">AC2 : Utiliser des techniques algorithmiques adaptées pour des problèmes complexes</h4>
-                        <span class="ce" data-translate="optimiser_ac2_ce">en s'appuyant sur des schémas de raisonnement (CE2.03)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="optimiser_ac2_title">AC2 : Utiliser des techniques algorithmiques adaptées pour des problèmes complexes</h4>
+                                <span class="ce" data-translate="optimiser_ac2_ce">en s'appuyant sur des schémas de raisonnement (CE2.03)</span>
 
-                        <a href="projects/saetrains.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac2_projet1_title">Jeu 'Trains'</h5>
-                                    <p data-translate="optimiser_ac2_projet1_text">J'ai implémenté l'algorithme de Dijkstra pour calculer les chemins optimaux entre les villes, en prenant en compte différents critères d'optimisation (distance, coût, temps). Cette implémentation m'a permis de comprendre les subtilités des algorithmes de parcours de graphes et d'apprécier leur puissance dans la résolution de problèmes concrets.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Algorithmes</span>
-                                        <span class="tech-tag">Dijkstra</span>
-                                        <span class="tech-tag">Optimisation</span>
+                                <a href="projects/saetrains.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac2_projet1_title">Jeu 'Trains'</h5>
+                                            <p data-translate="optimiser_ac2_projet1_text">J'ai implémenté l'algorithme de Dijkstra pour calculer les chemins optimaux entre les villes, en prenant en compte différents critères d'optimisation (distance, coût, temps). Cette implémentation m'a permis de comprendre les subtilités des algorithmes de parcours de graphes et d'apprécier leur puissance dans la résolution de problèmes concrets.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Algorithmes</span>
+                                                <span class="tech-tag">Dijkstra</span>
+                                                <span class="tech-tag">Optimisation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/trains/video.gif" alt="Algorithme de Dijkstra" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/trains/video.gif" alt="Algorithme de Dijkstra" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saectf.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac2_projet2_title">Projet CTFD</h5>
-                                    <p data-translate="optimiser_ac2_projet2_text">J'ai conçu plusieurs défis de cybersécurité nécessitant des algorithmes sophistiqués, notamment un défi de stéganographie utilisant la manipulation des chunks PNG. Cette expérience m'a poussé à explorer des techniques algorithmiques avancées et à comprendre leur application dans un contexte de sécurité informatique.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Stéganographie</span>
-                                        <span class="tech-tag">Manipulation de bits</span>
+                                <a href="projects/saectf.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac2_projet2_title">Projet CTFD</h5>
+                                            <p data-translate="optimiser_ac2_projet2_text">J'ai conçu plusieurs défis de cybersécurité nécessitant des algorithmes sophistiqués, notamment un défi de stéganographie utilisant la manipulation des chunks PNG. Cette expérience m'a poussé à explorer des techniques algorithmiques avancées et à comprendre leur application dans un contexte de sécurité informatique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Stéganographie</span>
+                                                <span class="tech-tag">Manipulation de bits</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/CTFd/video.gif" alt="Projet CTFD" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/CTFd/video.gif" alt="Projet CTFD" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="optimiser_ac3_title">AC3 : Comprendre les enjeux et moyens de sécurisation des données et du code</h4>
-                        <span class="ce" data-translate="optimiser_ac3_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="optimiser_ac3_title">AC3 : Comprendre les enjeux et moyens de sécurisation des données et du code</h4>
+                                <span class="ce" data-translate="optimiser_ac3_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
 
-                        <a href="projects/saemagasin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac3_projet1_title">Projet E-commerce</h5>
-                                    <p data-translate="optimiser_ac3_projet1_text">J'ai implémenté un système d'authentification robuste incluant des protections contre les attaques par force brute, et j'ai veillé à sécuriser les transactions et les données utilisateur. Ce travail m'a sensibilisé à l'importance cruciale de la sécurité dans le développement web moderne.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Sécurité</span>
-                                        <span class="tech-tag">Authentification</span>
-                                        <span class="tech-tag">Protection des données</span>
+                                <a href="projects/saemagasin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac3_projet1_title">Projet E-commerce</h5>
+                                            <p data-translate="optimiser_ac3_projet1_text">J'ai implémenté un système d'authentification robuste incluant des protections contre les attaques par force brute, et j'ai veillé à sécuriser les transactions et les données utilisateur. Ce travail m'a sensibilisé à l'importance cruciale de la sécurité dans le développement web moderne.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Sécurité</span>
+                                                <span class="tech-tag">Authentification</span>
+                                                <span class="tech-tag">Protection des données</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/Projectcommerce/Accueil.png" alt="Projet E-commerce" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/Projectcommerce/Accueil.png" alt="Projet E-commerce" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac3_projet2_title">Stage DSIN</h5>
-                                    <p data-translate="optimiser_ac3_projet2_text">J'ai mis en œuvre des mécanismes de chiffrement pour les données sensibles et sécurisé l'interaction avec le LDAP universitaire. Ces expériences pratiques ont consolidé ma compréhension des principes fondamentaux de la sécurité informatique.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Chiffrement</span>
-                                        <span class="tech-tag">LDAP</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac3_projet2_title">Stage DSIN</h5>
+                                            <p data-translate="optimiser_ac3_projet2_text">J'ai mis en œuvre des mécanismes de chiffrement pour les données sensibles et sécurisé l'interaction avec le LDAP universitaire. Ces expériences pratiques ont consolidé ma compréhension des principes fondamentaux de la sécurité informatique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Chiffrement</span>
+                                                <span class="tech-tag">LDAP</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Stage DSIN" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="Stage DSIN" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="optimiser_ac4_title">AC4 : Évaluer l'impact environnemental et sociétal des solutions proposées</h4>
-                        <span class="ce" data-translate="optimiser_ac4_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="optimiser_ac4_title">AC4 : Évaluer l'impact environnemental et sociétal des solutions proposées</h4>
+                                <span class="ce" data-translate="optimiser_ac4_ce">en justifiant les choix et validant les résultats (CE2.04)</span>
 
-                        <a href="projects/saecontroverse.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac4_projet1_title">Projet Controverse</h5>
-                                    <p data-translate="optimiser_ac4_projet1_text">Ce projet m'a offert l'opportunité de réfléchir aux implications éthiques et sociétales des technologies numériques, notamment concernant la tension entre vie privée et sécurité nationale. Cette réflexion m'a sensibilisé à l'importance d'une démarche responsable dans le développement technologique.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Éthique</span>
-                                        <span class="tech-tag">Vie privée</span>
+                                <a href="projects/saecontroverse.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac4_projet1_title">Projet Controverse</h5>
+                                            <p data-translate="optimiser_ac4_projet1_text">Ce projet m'a offert l'opportunité de réfléchir aux implications éthiques et sociétales des technologies numériques, notamment concernant la tension entre vie privée et sécurité nationale. Cette réflexion m'a sensibilisé à l'importance d'une démarche responsable dans le développement technologique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Éthique</span>
+                                                <span class="tech-tag">Vie privée</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/works/06.png" alt="Projet Controverse" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/works/06.png" alt="Projet Controverse" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saetournoi.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="optimiser_ac4_projet2_title">Charlie's Festival Adventure</h5>
-                                    <p data-translate="optimiser_ac4_projet2_text">Nous avons intégré une dimension environnementale en optimisant l'infrastructure technique pour réduire l'empreinte carbone de l'événement. Cette approche m'a fait prendre conscience de la responsabilité des développeurs dans la conception de solutions durables.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Green IT</span>
-                                        <span class="tech-tag">Développement durable</span>
+                                <a href="projects/saetournoi.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="optimiser_ac4_projet2_title">Charlie's Festival Adventure</h5>
+                                            <p data-translate="optimiser_ac4_projet2_text">Nous avons intégré une dimension environnementale en optimisant l'infrastructure technique pour réduire l'empreinte carbone de l'événement. Cette approche m'a fait prendre conscience de la responsabilité des développeurs dans la conception de solutions durables.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Green IT</span>
+                                                <span class="tech-tag">Développement durable</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAETournoi/pert.png" alt="Charlie's Festival Adventure" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAETournoi/pert.png" alt="Charlie's Festival Adventure" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </div>
 
-                <!-- Administrer -->
-                <div id="administrer" class="competence-section">
-                    <h3 class="competence-title" data-translate="administrer_title">2. Compétence "Administrer" (Niveau 2)</h3>
+                        <!-- Administrer -->
+                        <div id="administrer" class="competence-section">
+                            <h3 class="competence-title" data-translate="administrer_title">2. Compétence "Administrer" (Niveau 2)</h3>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="administrer_ac1_title">AC1 : Concevoir et développer des applications communicantes</h4>
-                        <span class="ce" data-translate="administrer_ac1_ce">en sécurisant le système d'information (CE3.01)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="administrer_ac1_title">AC1 : Concevoir et développer des applications communicantes</h4>
+                                <span class="ce" data-translate="administrer_ac1_ce">en sécurisant le système d'information (CE3.01)</span>
 
-                        <a href="projects/saectf.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac1_projet1_title">Projet CTFD pour Yggame</h5>
-                                    <p data-translate="administrer_ac1_projet1_text">J'ai dû intégrer la plateforme CTFd avec les conteneurs Docker hébergeant les différents défis, en établissant des mécanismes de communication sécurisés. Cette expérience m'a permis de comprendre les enjeux de l'interopérabilité et de la sécurisation des échanges entre composants d'un système distribué.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">API</span>
-                                        <span class="tech-tag">Architecture distribuée</span>
+                                <a href="projects/saectf.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac1_projet1_title">Projet CTFD pour Yggame</h5>
+                                            <p data-translate="administrer_ac1_projet1_text">J'ai dû intégrer la plateforme CTFd avec les conteneurs Docker hébergeant les différents défis, en établissant des mécanismes de communication sécurisés. Cette expérience m'a permis de comprendre les enjeux de l'interopérabilité et de la sécurisation des échanges entre composants d'un système distribué.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">API</span>
+                                                <span class="tech-tag">Architecture distribuée</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/CTFd/video.gif" alt="CTFD Platform" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/CTFd/video.gif" alt="CTFD Platform" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac1_projet2_title">Stage DSIN</h5>
-                                    <p data-translate="administrer_ac1_projet2_text">J'ai développé des modules de communication avec des API externes (notamment Ivanti pour l'inventaire du matériel informatique), en implémentant des mécanismes d'authentification avancés et de gestion des erreurs. Ce travail m'a confronté aux défis réels des applications communicantes en environnement d'entreprise.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">API</span>
-                                        <span class="tech-tag">Interopérabilité</span>
-                                        <span class="tech-tag">Gestion d'erreurs</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac1_projet2_title">Stage DSIN</h5>
+                                            <p data-translate="administrer_ac1_projet2_text">J'ai développé des modules de communication avec des API externes (notamment Ivanti pour l'inventaire du matériel informatique), en implémentant des mécanismes d'authentification avancés et de gestion des erreurs. Ce travail m'a confronté aux défis réels des applications communicantes en environnement d'entreprise.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">API</span>
+                                                <span class="tech-tag">Interopérabilité</span>
+                                                <span class="tech-tag">Gestion d'erreurs</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="SAPIENS Migration" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="SAPIENS Migration" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="administrer_ac2_title">AC2 : Utiliser des serveurs et des services réseaux virtualisés</h4>
-                        <span class="ce" data-translate="administrer_ac2_ce">en offrant une qualité de service optimale (CE3.02)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="administrer_ac2_title">AC2 : Utiliser des serveurs et des services réseaux virtualisés</h4>
+                                <span class="ce" data-translate="administrer_ac2_ce">en offrant une qualité de service optimale (CE3.02)</span>
 
-                        <a href="projects/saectf.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac2_projet1_title">Projet CTFD</h5>
-                                    <p data-translate="administrer_ac2_projet1_text">J'ai déployé la plateforme CTFd et ses défis sur un serveur VPS en utilisant Docker, créant un environnement modulaire où chaque défi était isolé dans son propre conteneur. Cette approche m'a fait découvrir les avantages considérables de la conteneurisation en termes de flexibilité, d'isolation et de reproductibilité des environnements.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Docker</span>
-                                        <span class="tech-tag">VPS</span>
-                                        <span class="tech-tag">Conteneurisation</span>
+                                <a href="projects/saectf.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac2_projet1_title">Projet CTFD</h5>
+                                            <p data-translate="administrer_ac2_projet1_text">J'ai déployé la plateforme CTFd et ses défis sur un serveur VPS en utilisant Docker, créant un environnement modulaire où chaque défi était isolé dans son propre conteneur. Cette approche m'a fait découvrir les avantages considérables de la conteneurisation en termes de flexibilité, d'isolation et de reproductibilité des environnements.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Docker</span>
+                                                <span class="tech-tag">VPS</span>
+                                                <span class="tech-tag">Conteneurisation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/CTFd/video.gif" alt="Docker Deployment" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/CTFd/video.gif" alt="Docker Deployment" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac2_projet2_title">Stage DSIN</h5>
-                                    <p data-translate="administrer_ac2_projet2_text">J'ai utilisé l'outil DDev pour créer un environnement de développement conteneurisé spécifique à l'écosystème Drupal. Cette expérience m'a permis d'apprécier comment la virtualisation peut standardiser les environnements de développement et éliminer les problèmes de compatibilité.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">DDev</span>
-                                        <span class="tech-tag">Virtualisation</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac2_projet2_title">Stage DSIN</h5>
+                                            <p data-translate="administrer_ac2_projet2_text">J'ai utilisé l'outil DDev pour créer un environnement de développement conteneurisé spécifique à l'écosystème Drupal. Cette expérience m'a permis d'apprécier comment la virtualisation peut standardiser les environnements de développement et éliminer les problèmes de compatibilité.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">DDev</span>
+                                                <span class="tech-tag">Virtualisation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="DDev Environment" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="DDev Environment" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="administrer_ac3_title">AC3 : Sécuriser les services et données d'un système</h4>
-                        <span class="ce" data-translate="administrer_ac3_ce">en sécurisant le système d'information (CE3.01) et en appliquant les normes en vigueur (CE3.03)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="administrer_ac3_title">AC3 : Sécuriser les services et données d'un système</h4>
+                                <span class="ce" data-translate="administrer_ac3_ce">en sécurisant le système d'information (CE3.01) et en appliquant les normes en vigueur (CE3.03)</span>
 
-                        <a href="projects/saemagasin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac3_projet1_title">Projet E-commerce</h5>
-                                    <p data-translate="administrer_ac3_projet1_text">J'ai implémenté diverses mesures de sécurité pour protéger les données sensibles des utilisateurs, notamment un système de validation d'email pour l'inscription et des protections contre les attaques par force brute. Ce travail m'a sensibilisé à l'importance de la sécurité des données personnelles et à la responsabilité des développeurs dans leur protection.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Validation de données</span>
-                                        <span class="tech-tag">Protection contre les attaques</span>
+                                <a href="projects/saemagasin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac3_projet1_title">Projet E-commerce</h5>
+                                            <p data-translate="administrer_ac3_projet1_text">J'ai implémenté diverses mesures de sécurité pour protéger les données sensibles des utilisateurs, notamment un système de validation d'email pour l'inscription et des protections contre les attaques par force brute. Ce travail m'a sensibilisé à l'importance de la sécurité des données personnelles et à la responsabilité des développeurs dans leur protection.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Validation de données</span>
+                                                <span class="tech-tag">Protection contre les attaques</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/Projectcommerce/Accueil.png" alt="E-commerce Security" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/Projectcommerce/Accueil.png" alt="E-commerce Security" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="administrer_ac3_projet2_title">Stage DSIN</h5>
-                                    <p data-translate="administrer_ac3_projet2_text">J'ai dû appliquer rigoureusement les normes de sécurité en vigueur dans le contexte universitaire, notamment pour la gestion des données académiques et la synchronisation avec le LDAP. Cette expérience m'a fait comprendre l'importance d'aligner les pratiques de sécurisation avec les cadres réglementaires existants.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Normes de sécurité</span>
-                                        <span class="tech-tag">Cadre réglementaire</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="administrer_ac3_projet2_title">Stage DSIN</h5>
+                                            <p data-translate="administrer_ac3_projet2_text">J'ai dû appliquer rigoureusement les normes de sécurité en vigueur dans le contexte universitaire, notamment pour la gestion des données académiques et la synchronisation avec le LDAP. Cette expérience m'a fait comprendre l'importance d'aligner les pratiques de sécurisation avec les cadres réglementaires existants.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Normes de sécurité</span>
+                                                <span class="tech-tag">Cadre réglementaire</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Security Implementation" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="Security Implementation" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </div>
 
-                <!-- Gérer -->
-                <div id="gerer" class="competence-section">
-                    <h3 class="competence-title" data-translate="gerer_title">3. Compétence "Gérer" (Niveau 2)</h3>
+                        <!-- Gérer -->
+                        <div id="gerer" class="competence-section">
+                            <h3 class="competence-title" data-translate="gerer_title">3. Compétence "Gérer" (Niveau 2)</h3>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="gerer_ac1_title">AC1 : Optimiser les modèles de données de l'entreprise</h4>
-                        <span class="ce" data-translate="gerer_ac1_ce">en respectant les réglementations sur le respect de la vie privée et la protection des données personnelles (CE4.01)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="gerer_ac1_title">AC1 : Optimiser les modèles de données de l'entreprise</h4>
+                                <span class="ce" data-translate="gerer_ac1_ce">en respectant les réglementations sur le respect de la vie privée et la protection des données personnelles (CE4.01)</span>
 
-                        <a href="projects/saebd.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac1_projet1_title">Base de Données pour Streaming Musical</h5>
-                                    <p data-translate="gerer_ac1_projet1_text">J'ai conçu et optimisé un modèle de données complexe pour une application de streaming musical, en intégrant les contraintes de performances et de confidentialité des données utilisateur. La normalisation de la base de données et l'optimisation des requêtes ont été au cœur de mon travail, tout en respectant les principes de protection des données personnelles selon le RGPD.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Optimisation BD</span>
-                                        <span class="tech-tag">Modélisation</span>
-                                        <span class="tech-tag">RGPD</span>
+                                <a href="projects/saebd.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac1_projet1_title">Base de Données pour Streaming Musical</h5>
+                                            <p data-translate="gerer_ac1_projet1_text">J'ai conçu et optimisé un modèle de données complexe pour une application de streaming musical, en intégrant les contraintes de performances et de confidentialité des données utilisateur. La normalisation de la base de données et l'optimisation des requêtes ont été au cœur de mon travail, tout en respectant les principes de protection des données personnelles selon le RGPD.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Optimisation BD</span>
+                                                <span class="tech-tag">Modélisation</span>
+                                                <span class="tech-tag">RGPD</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAEBD/ModeleEA.png" alt="Modèle de données optimisé" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAEBD/ModeleEA.png" alt="Modèle de données optimisé" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac1_projet2_title">Stage DSIN - Migration SAPIENS</h5>
-                                    <p data-translate="gerer_ac1_projet2_text">Lors de la migration de Drupal 7 vers Drupal 10, j'ai restructuré et optimisé les modèles de données existants pour améliorer les performances et la sécurité. J'ai particulièrement travaillé sur l'optimisation des requêtes d'accès aux données d'inventaire et la mise en place de mécanismes de cache stratifiés.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Migration de données</span>
-                                        <span class="tech-tag">Optimisation</span>
-                                        <span class="tech-tag">Cache stratifié</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac1_projet2_title">Stage DSIN - Migration SAPIENS</h5>
+                                            <p data-translate="gerer_ac1_projet2_text">Lors de la migration de Drupal 7 vers Drupal 10, j'ai restructuré et optimisé les modèles de données existants pour améliorer les performances et la sécurité. J'ai particulièrement travaillé sur l'optimisation des requêtes d'accès aux données d'inventaire et la mise en place de mécanismes de cache stratifiés.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Migration de données</span>
+                                                <span class="tech-tag">Optimisation</span>
+                                                <span class="tech-tag">Cache stratifié</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Migration SAPIENS" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="Migration SAPIENS" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="gerer_ac2_title">AC2 : Assurer la confidentialité des données (intégrité et sécurité)</h4>
-                        <span class="ce" data-translate="gerer_ac2_ce">en respectant les enjeux économiques, sociétaux et écologiques (CE4.02)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="gerer_ac2_title">AC2 : Assurer la confidentialité des données (intégrité et sécurité)</h4>
+                                <span class="ce" data-translate="gerer_ac2_ce">en respectant les enjeux économiques, sociétaux et écologiques (CE4.02)</span>
 
-                        <a href="projects/saemagasin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac2_projet1_title">Projet E-commerce</h5>
-                                    <p data-translate="gerer_ac2_projet1_text">J'ai implémenté un système complet de gestion sécurisée des données clients, incluant le chiffrement des informations sensibles, la validation des données d'entrée et la mise en place de mécanismes d'audit pour tracer les accès aux données personnelles. Une attention particulière a été portée à l'équilibre entre sécurité et performance.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Chiffrement</span>
-                                        <span class="tech-tag">Audit des données</span>
-                                        <span class="tech-tag">Validation</span>
+                                <a href="projects/saemagasin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac2_projet1_title">Projet E-commerce</h5>
+                                            <p data-translate="gerer_ac2_projet1_text">J'ai implémenté un système complet de gestion sécurisée des données clients, incluant le chiffrement des informations sensibles, la validation des données d'entrée et la mise en place de mécanismes d'audit pour tracer les accès aux données personnelles. Une attention particulière a été portée à l'équilibre entre sécurité et performance.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Chiffrement</span>
+                                                <span class="tech-tag">Audit des données</span>
+                                                <span class="tech-tag">Validation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/Projectcommerce/Accueil.png" alt="Sécurité E-commerce" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/Projectcommerce/Accueil.png" alt="Sécurité E-commerce" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saectf.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac2_projet2_title">Projet CTFD</h5>
-                                    <p data-translate="gerer_ac2_projet2_text">Dans le cadre du développement des défis de cybersécurité, j'ai mis en place des mécanismes robustes de protection des données des participants, tout en gérant les aspects de performance pour supporter une charge importante d'utilisateurs simultanés. Cette expérience m'a sensibilisé aux enjeux de protection des données dans un contexte de compétition.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Protection des données</span>
-                                        <span class="tech-tag">Performance</span>
-                                        <span class="tech-tag">Scalabilité</span>
+                                <a href="projects/saectf.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac2_projet2_title">Projet CTFD</h5>
+                                            <p data-translate="gerer_ac2_projet2_text">Dans le cadre du développement des défis de cybersécurité, j'ai mis en place des mécanismes robustes de protection des données des participants, tout en gérant les aspects de performance pour supporter une charge importante d'utilisateurs simultanés. Cette expérience m'a sensibilisé aux enjeux de protection des données dans un contexte de compétition.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Protection des données</span>
+                                                <span class="tech-tag">Performance</span>
+                                                <span class="tech-tag">Scalabilité</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/CTFd/video.gif" alt="Sécurité CTFD" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/CTFd/video.gif" alt="Sécurité CTFD" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="gerer_ac3_title">AC3 : Organiser la restitution de données à travers la programmation et la visualisation</h4>
-                        <span class="ce" data-translate="gerer_ac3_ce">en s'appuyant sur des bases mathématiques (CE4.03)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="gerer_ac3_title">AC3 : Organiser la restitution de données à travers la programmation et la visualisation</h4>
+                                <span class="ce" data-translate="gerer_ac3_ce">en s'appuyant sur des bases mathématiques (CE4.03)</span>
 
-                        <a href="projects/saebd.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac3_projet1_title">Base de Données pour Streaming Musical</h5>
-                                    <p data-translate="gerer_ac3_projet1_text">J'ai développé des vues complexes et des requêtes statistiques avancées pour analyser les données d'écoute, incluant des calculs de médiane, d'écart-type et de corrélations. Ces analyses ont été rendues accessibles via des tableaux de bord interactifs permettant une visualisation claire des tendances musicales.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Vues SQL</span>
-                                        <span class="tech-tag">Statistiques</span>
-                                        <span class="tech-tag">Visualisation</span>
+                                <a href="projects/saebd.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac3_projet1_title">Base de Données pour Streaming Musical</h5>
+                                            <p data-translate="gerer_ac3_projet1_text">J'ai développé des vues complexes et des requêtes statistiques avancées pour analyser les données d'écoute, incluant des calculs de médiane, d'écart-type et de corrélations. Ces analyses ont été rendues accessibles via des tableaux de bord interactifs permettant une visualisation claire des tendances musicales.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Vues SQL</span>
+                                                <span class="tech-tag">Statistiques</span>
+                                                <span class="tech-tag">Visualisation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAEBD/exemple_vue.png" alt="Vues et statistiques" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAEBD/exemple_vue.png" alt="Vues et statistiques" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saetournoi.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac3_projet2_title">Charlie's Festival Adventure</h5>
-                                    <p data-translate="gerer_ac3_projet2_text">J'ai conçu et développé des outils de visualisation pour le suivi des inscriptions et la gestion des tournois, en utilisant des techniques de représentation graphique pour faciliter la prise de décision. Les données étaient organisées sous forme de diagrammes de Gantt et de graphiques de performance pour optimiser la planification de l'événement.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Diagrammes de Gantt</span>
-                                        <span class="tech-tag">Graphiques de performance</span>
-                                        <span class="tech-tag">Planification</span>
+                                <a href="projects/saetournoi.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac3_projet2_title">Charlie's Festival Adventure</h5>
+                                            <p data-translate="gerer_ac3_projet2_text">J'ai conçu et développé des outils de visualisation pour le suivi des inscriptions et la gestion des tournois, en utilisant des techniques de représentation graphique pour faciliter la prise de décision. Les données étaient organisées sous forme de diagrammes de Gantt et de graphiques de performance pour optimiser la planification de l'événement.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Diagrammes de Gantt</span>
+                                                <span class="tech-tag">Graphiques de performance</span>
+                                                <span class="tech-tag">Planification</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAETournoi/charges.png" alt="Visualisation de données" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAETournoi/charges.png" alt="Visualisation de données" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
 
-                    <div class="apprentissage-critique">
-                        <h4 data-translate="gerer_ac4_title">AC4 : Manipuler des données hétérogènes</h4>
-                        <span class="ce" data-translate="gerer_ac4_ce">en assurant la cohérence et la qualité (CE4.02)</span>
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="gerer_ac4_title">AC4 : Manipuler des données hétérogènes</h4>
+                                <span class="ce" data-translate="gerer_ac4_ce">en assurant la cohérence et la qualité (CE4.02)</span>
 
-                        <a href="projects/stagedsin.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac4_projet1_title">Stage DSIN - Intégration de données</h5>
-                                    <p data-translate="gerer_ac4_projet1_text">J'ai dû gérer l'intégration de données provenant de sources hétérogènes : base de données Drupal, API Ivanti, annuaire LDAP et système Apogée. Cette expérience m'a confronté aux défis de la cohérence des données, de la gestion des formats différents et de la synchronisation entre systèmes autonomes.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">Intégration de données</span>
-                                        <span class="tech-tag">API diverses</span>
-                                        <span class="tech-tag">Synchronisation</span>
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac4_projet1_title">Stage DSIN - Intégration de données</h5>
+                                            <p data-translate="gerer_ac4_projet1_text">J'ai dû gérer l'intégration de données provenant de sources hétérogènes : base de données Drupal, API Ivanti, annuaire LDAP et système Apogée. Cette expérience m'a confronté aux défis de la cohérence des données, de la gestion des formats différents et de la synchronisation entre systèmes autonomes.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Intégration de données</span>
+                                                <span class="tech-tag">API diverses</span>
+                                                <span class="tech-tag">Synchronisation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Intégration de données" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/stageDSIN/video.gif" alt="Intégration de données" class="projet-exemple-img">
-                            </div>
-                        </a>
+                                </a>
 
-                        <a href="projects/saebd.html" class="projet-exemple-link">
-                            <div class="projet-exemple">
-                                <div class="projet-exemple-content">
-                                    <h5 data-translate="gerer_ac4_projet2_title">Projet Base de Données Streaming</h5>
-                                    <p data-translate="gerer_ac4_projet2_text">J'ai développé des mécanismes d'importation et de transformation de données à partir de fichiers CSV hétérogènes, en mettant en place des contrôles de qualité et des processus de validation pour assurer la cohérence des données intégrées. Cette expérience m'a appris l'importance de la qualité des données dans les systèmes d'information.</p>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">ETL</span>
-                                        <span class="tech-tag">Contrôle qualité</span>
-                                        <span class="tech-tag">Validation des données</span>
+                                <a href="projects/saebd.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="gerer_ac4_projet2_title">Projet Base de Données Streaming</h5>
+                                            <p data-translate="gerer_ac4_projet2_text">J'ai développé des mécanismes d'importation et de transformation de données à partir de fichiers CSV hétérogènes, en mettant en place des contrôles de qualité et des processus de validation pour assurer la cohérence des données intégrées. Cette expérience m'a appris l'importance de la qualité des données dans les systèmes d'information.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">ETL</span>
+                                                <span class="tech-tag">Contrôle qualité</span>
+                                                <span class="tech-tag">Validation des données</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/SAEBD/ModeleEA.png" alt="Gestion de données hétérogènes" class="projet-exemple-img">
                                     </div>
-                                </div>
-                                <img src="img/trace/SAEBD/ModeleEA.png" alt="Gestion de données hétérogènes" class="projet-exemple-img">
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </div>
+
+                    </div><!-- fin accordion-content niveau2 -->
+                </div><!-- fin accordion-section niveau2 -->
+
+                <!-- ===================== ACCORDÉON NIVEAU 3 ===================== -->
+                <div class="accordion-section" id="niveau3">
+                    <button class="accordion-header accordion-header--open" data-target="content-niveau3">
+                        <span data-translate="niveau3_section_title">Compétences Niveau 3 - Semestres 5-6 (Réaliser · Conduire · Collaborer)</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content accordion-content--open" id="content-niveau3">
+
+                        <!-- Réaliser -->
+                        <div id="realiser" class="competence-section">
+                            <h3 class="competence-title" data-translate="realiser_title">1. Réaliser - Niveau 3</h3>
+                            <p class="about-descr" data-translate="realiser_subtitle" style="font-style: italic; margin-bottom: 2rem;">Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT…) - CE1.01 · CE1.03 · CE1.04 · CE1.06</p>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="realiser_ac1_title">AC1 - Choisir et implémenter les architectures adaptées</h4>
+                                <span class="ce" data-translate="realiser_ac1_ce">CE1.06 | en choisissant les ressources techniques appropriées · CE1.04 | en veillant à la qualité du code</span>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac1_p1_title">Mirukai - Architecture full-stack Next.js</h5>
+                                            <p data-translate="realiser_ac1_p1_text">Sur Mirukai, j'ai conçu seul l'architecture complète : Next.js 16 App Router pour unifier frontend et API Routes, PostgreSQL pour le catalogue (~3 500 animés), Redis pour le cache multi-niveaux (TTL 1h, rate limiting) et Docker Compose pour l'isolation des services. Chaque choix était délibéré : <code>iron-session</code> pour les sessions chiffrées, <code>scrypt</code> natif Node.js pour le hachage timing-safe. Cette architecture supporte deux environnements indépendants (prod/dev) sur la même infrastructure Proxmox.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Next.js 16 App Router</span>
+                                                <span class="tech-tag">PostgreSQL</span>
+                                                <span class="tech-tag">Redis</span>
+                                                <span class="tech-tag">Docker Compose</span>
+                                                <span class="tech-tag">TypeScript</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai application" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac1_p2_title">Capital Wars - Architecture MVCS et système de plugins</h5>
+                                            <p data-translate="realiser_ac1_p2_text">Sur Capital Wars, nous avons conçu une architecture MVCS sur Symfony 6.4 avec un choix architectural central : le système de plugins modulaires. Chaque plugin implémente des interfaces SOLID (PluginBilanContributorInterface, PluginResultatContributorInterface, DecisionsContribute), garantissant que le noyau reste stable tandis que les extensions sont indépendantes. L'activation dynamique via JSON et la commande <code>make:plugin</code> illustrent une architecture pensée pour l'adaptabilité exactement ce que vise l'AC1 de Réaliser niveau 3.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Symfony 6.4</span>
+                                                <span class="tech-tag">Architecture MVCS</span>
+                                                <span class="tech-tag">SOLID</span>
+                                                <span class="tech-tag">Doctrine ORM</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars architecture" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="realiser_ac2_title">AC2 - Faire évoluer une application existante</h4>
+                                <span class="ce" data-translate="realiser_ac2_ce">CE1.01 | en respectant les besoins décrits par le client · CE1.04 | en veillant à la qualité du code</span>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac2_p1_title">Stage DSIN - Migration SA.P.I.E.N.S de Drupal 7 vers Drupal 10</h5>
+                                            <p data-translate="realiser_ac2_p1_text">Le stage DSIN est la trace la plus directe de cet AC : faire évoluer une application existante en production, critique pour des milliers d'utilisateurs, sans interrompre le service. La migration impliquait une refonte architecturale profonde (réécriture des modules en API Symfony, migration des hooks vers des Event Listeners) tout en préservant toutes les fonctionnalités métier. J'ai appliqué une démarche rigoureuse : audit du code legacy, migration incrémentale, tests de non-régression et documentation des changements.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Drupal 10</span>
+                                                <span class="tech-tag">Migration Drupal 7</span>
+                                                <span class="tech-tag">PHP</span>
+                                                <span class="tech-tag">DDev</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Migration SAPIENS" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac2_p2_title">Capital Wars - Évolution itérative sur un an</h5>
+                                            <p data-translate="realiser_ac2_p2_text">Capital Wars a été développé sur l'intégralité de l'année académique 2025–2026 (S5 + S6), ce qui a impliqué de faire évoluer continuellement une base de code existante à chaque sprint. Le système de plugins a été la réponse à ce défi : plutôt que modifier le noyau, les plugins Bourse, Chat, RH et Événements PESTEL ont été greffés sur une architecture stable. Les tests PHPUnit, le CI/CD GitHub Actions et l'analyse SonarQube (couverture 60 %) assuraient la qualité à chaque évolution.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">PHPUnit</span>
+                                                <span class="tech-tag">CI/CD GitHub Actions</span>
+                                                <span class="tech-tag">SonarQube</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars évolution" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="realiser_ac3_title">AC3 - Intégrer des solutions dans un environnement de production</h4>
+                                <span class="ce" data-translate="realiser_ac3_ce">CE1.06 | en choisissant les ressources techniques appropriées · CE1.03 | en appliquant les principes algorithmiques</span>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac3_p1_title">Mirukai - Déploiement continu sur infrastructure auto-hébergée</h5>
+                                            <p data-translate="realiser_ac3_p1_text">Mirukai est en production réelle sur mirukai.rlbrt.fr. Un push sur <code>main</code> déclenche GitHub Actions, qui construit l'image Docker, la pousse sur GHCR, puis déploie par SSH sur le CT Proxmox sans downtime (<code>docker compose up --no-deps</code>). Nginx assure le SSL Let's Encrypt et le routage vers prod (port 8080) et staging (port 8081). Cet AC3 est le plus concret : l'application est publique, maintenue et déployée en continu ce n'est pas un exercice pédagogique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">GitHub Actions CI/CD</span>
+                                                <span class="tech-tag">GHCR</span>
+                                                <span class="tech-tag">Nginx</span>
+                                                <span class="tech-tag">Proxmox LXC</span>
+                                                <span class="tech-tag">Let's Encrypt</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai production" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="realiser_ac3_p2_title">Stage DSIN - Intégration en environnement universitaire critique</h5>
+                                            <p data-translate="realiser_ac3_p2_text">Intégrer la migration SAPIENS dans un SI universitaire en production imposait une exigence de disponibilité permanente. L'intégration avec le LDAP de l'UM, l'API Ivanti et le système Apogée a nécessité une maîtrise des protocoles d'intégration en environnement institutionnel bien plus contraignant qu'un contexte académique. Chaque composant migré était validé en staging avant déploiement sur l'environnement de production.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">SI universitaire</span>
+                                                <span class="tech-tag">LDAP</span>
+                                                <span class="tech-tag">API Ivanti</span>
+                                                <span class="tech-tag">Apogée</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Architecture SAPIENS" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Conduire -->
+                        <div id="conduire" class="competence-section">
+                            <h3 class="competence-title" data-translate="conduire_title">2. Conduire - Niveau 3</h3>
+                            <p class="about-descr" data-translate="conduire_subtitle" style="font-style: italic; margin-bottom: 2rem;">Participer à la conception et à la mise en œuvre d'un projet système d'information - CE5.01 · CE5.02 · CE5.03 · CE5.04</p>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="conduire_ac1_title">AC1 - Mesurer les impacts économiques, sociétaux et technologiques d'un projet informatique</h4>
+                                <span class="ce" data-translate="conduire_ac1_ce">CE5.03 | en sensibilisant à une gestion éthique, responsable et durable · CE5.04 | en adoptant une démarche proactive</span>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac1_p1_title">Stage DSIN - Impact institutionnel de la migration SAPIENS</h5>
+                                            <p data-translate="conduire_ac1_p1_text">La migration de SA.P.I.E.N.S avait des impacts mesurables. Technologique : passage de Drupal 7 (fin de support) à Drupal 10, éliminant les risques de sécurité. Sociétal : la plateforme gère les salles informatiques et les examens numériques pour des milliers d'étudiants une interruption aurait des conséquences directes sur les études. Économique : rationaliser l'infrastructure réduit la charge de maintenance des équipes DSI à long terme. J'ai intégré cette dimension d'impact dans chaque décision, priorisant la continuité de service sur la rapidité.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Analyse d'impact</span>
+                                                <span class="tech-tag">Continuité de service</span>
+                                                <span class="tech-tag">RGPD</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="SAPIENS impact" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac1_p2_title">Mirukai - Évaluation des impacts dans un projet personnel</h5>
+                                            <p data-translate="conduire_ac1_p2_text">Sur Mirukai, j'ai été confronté à des impacts économiques et éthiques réels : les appels Gemini 2.0 Flash ont un coût par requête, ce qui a justifié le fallback Groq et le cache agressif. Côté données personnelles, les listes d'animés révèlent des préférences culturelles sensibles j'ai délibérément minimisé le stockage et sécurisé les sessions (iron-session, scrypt). Ces choix éthiques conscients ont guidé l'architecture autant que les contraintes techniques.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Coûts API LLM</span>
+                                                <span class="tech-tag">Minimisation des données</span>
+                                                <span class="tech-tag">Vie privée</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai éthique" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="conduire_ac2_title">AC2 - Savoir intégrer un projet informatique dans le système d'information d'une organisation</h4>
+                                <span class="ce" data-translate="conduire_ac2_ce">CE5.01 | en communiquant efficacement avec les différents acteurs · CE5.02 | en respectant les règles juridiques</span>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac2_p1_title">Stage DSIN - Intégration au SI de l'Université de Montpellier</h5>
+                                            <p data-translate="conduire_ac2_p1_text">SAPIENS s'inscrit dans un écosystème SI universitaire complexe : synchronisation avec le LDAP de l'UM (authentification centralisée), l'API Ivanti (inventaire matériel), le système Apogée (données étudiantes) et les bases de données pédagogiques. Chaque connexion respectait les protocoles de sécurité institutionnels et les contraintes RGPD liées aux données étudiantes. Comprendre les usages métier avant de migrer en communicant avec les équipes de la DSIN a guidé les priorités et évité les régressions.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Intégration SI</span>
+                                                <span class="tech-tag">LDAP universitaire</span>
+                                                <span class="tech-tag">Communication métier</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Architecture SAPIENS" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac2_p2_title">Capital Wars - Conception d'un SI de jeu intégré</h5>
+                                            <p data-translate="conduire_ac2_p2_text">Capital Wars constitue un système d'information complet : ~20 entités interconnectées avec des règles d'intégration strictes entre noyau et plugins. Concevoir ce SI en équipe de 4 a impliqué des interfaces claires entre domaines fonctionnels, des migrations Doctrine versionnées et une communication continue via Discord et GitHub. La démarche de spécification préalable (diagrammes de classes, schéma E-R) a assuré la cohérence du SI sur toute l'année.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Modélisation SI</span>
+                                                <span class="tech-tag">Doctrine ORM</span>
+                                                <span class="tech-tag">Migrations versionnées</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars SI" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="conduire_ac3_title">AC3 - Savoir adapter un système d'information</h4>
+                                <span class="ce" data-translate="conduire_ac3_ce">CE5.04 | en adoptant une démarche proactive, créative et critique · CE5.02 | en respectant les normes en vigueur</span>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac3_p1_title">Stage DSIN - Adapter SAPIENS sans interrompre le service</h5>
+                                            <p data-translate="conduire_ac3_p1_text">Adapter un SI en production est fondamentalement différent de le créer. Sur SAPIENS, chaque adaptation réécriture d'un hook Drupal 7 en Event Listener Drupal 10, migration d'un module custom devait maintenir la compatibilité avec les processus métier existants. La démarche proactive : identifier en amont les modules sans équivalent, proposer des alternatives, documenter les écarts et les valider avec l'équipe DSI avant implémentation. Cette posture nécessite de comprendre pourquoi le SI existant fonctionne comme il le fait avant de le modifier.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Adaptation SI</span>
+                                                <span class="tech-tag">Rétrocompatibilité</span>
+                                                <span class="tech-tag">Documentation</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Adaptation SAPIENS" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="conduire_ac3_p2_title">Mirukai - Adaptation incrémentale résiliente</h5>
+                                            <p data-translate="conduire_ac3_p2_text">Mirukai illustre l'adaptation d'un SI par ajouts successifs : le module JustWatch a été greffé via un mécanisme de sync lazy sans refonte du cœur ; les LLMs ont été intégrés sans les rendre prérequis (dégradation gracieuse si indisponibles). Cette capacité à étendre le SI de façon résiliente chaque composant ajouté dégrade gracieusement si absent est directement transférable en contexte professionnel.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Intégration incrémentale</span>
+                                                <span class="tech-tag">Dégradation gracieuse</span>
+                                                <span class="tech-tag">JustWatch / LLM</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai adaptation" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Collaborer -->
+                        <div id="collaborer" class="competence-section">
+                            <h3 class="competence-title" data-translate="collaborer_title">3. Collaborer - Niveau 3</h3>
+                            <p class="about-descr" data-translate="collaborer_subtitle" style="font-style: italic; margin-bottom: 2rem;">Manager une équipe informatique - CE6.01 · CE6.02 · CE6.03 · CE6.04</p>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="collaborer_ac1_title">AC1 - Organiser et partager une veille numérique</h4>
+                                <span class="ce" data-translate="collaborer_ac1_ce">CE6.04 | en développant une communication efficace · CE6.02 | en accompagnant les évolutions informatiques</span>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac1_p1_title">Mirukai - Veille technologique autonome et structurée</h5>
+                                            <p data-translate="collaborer_ac1_p1_text">Mirukai n'a pas été construit avec des technologies connues d'avance : Next.js 16 App Router, Tailwind CSS v4, Gemini 2.0 Flash, Groq, et l'API non-officielle JustWatch (découverte par analyse des requêtes réseau). La veille a été permanente et structurée suivi des changelogs, des annonces LLM, exploration de documentation non officielle. Elle a directement influencé les choix : passage de Tailwind v3 à v4, ajout du fallback Groq suite à une instabilité Gemini. Le fichier MIRUKAI_PROJECT.md centralise l'état de l'infrastructure, des roadmaps et des décisions.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Next.js / Tailwind v4</span>
+                                                <span class="tech-tag">APIs LLM</span>
+                                                <span class="tech-tag">Documentation technique</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai veille" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/nuitinfo2025.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac1_p2_title">Nuit de l'Info 2025 - Veille accélérée sous contrainte</h5>
+                                            <p data-translate="collaborer_ac1_p2_text">La Nuit de l'Info est un exercice extrême de veille et d'adaptation : en 24h, il faut identifier les technologies adaptées au défi imposé, évaluer leur faisabilité dans le temps imparti, et partager ces informations avec l'équipe pour orienter les décisions. Cette mise sous pression révèle la capacité à organiser une veille efficace quand le temps est la contrainte principale compétence directement applicable en entreprise lors des phases de cadrage technique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Hackathon 24h</span>
+                                                <span class="tech-tag">Décision sous contrainte</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/ndi2025/video.gif" alt="Nuit de l'Info 2025" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="collaborer_ac2_title">AC2 - Identifier les enjeux de l'économie de l'innovation numérique</h4>
+                                <span class="ce" data-translate="collaborer_ac2_ce">CE6.03 | en veillant au respect des contraintes juridiques · CE6.04 | en développant une communication collaborative</span>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac2_p1_title">Capital Wars - Simulation des enjeux économiques de l'innovation</h5>
+                                            <p data-translate="collaborer_ac2_p1_text">Capital Wars simule une économie d'entreprise complète : décisions d'investissement, R&D, marketing et financement dans un marché concurrentiel. Modéliser le Plugin Bourse (OPA hostile, notation de crédit AAA→D, split d'actions) et les Événements PESTEL (risques politiques, économiques, sociaux, technologiques, environnementaux, légaux) a nécessité de comprendre ces mécanismes réels avant de les implémenter apprentissage tangible des enjeux économiques de l'innovation numérique.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Économie d'entreprise</span>
+                                                <span class="tech-tag">Simulation boursière</span>
+                                                <span class="tech-tag">PESTEL</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars économie" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/mirukai.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac2_p2_title">Mirukai - Modèles économiques de l'IA générative</h5>
+                                            <p data-translate="collaborer_ac2_p2_text">Intégrer des LLMs en production m'a confronté aux enjeux économiques de l'IA : tarification au token (Gemini), stratégie coût/qualité (Groq moins cher mais moins précis), impact du cache sur les coûts (traductions persistées en BDD). J'ai également réfléchi à la dépendance envers des APIs propriétaires : un changement tarifaire de Google pourrait contraindre une refonte ce qui a justifié le fallback dès la conception.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Modèles économiques LLM</span>
+                                                <span class="tech-tag">Souveraineté numérique</span>
+                                                <span class="tech-tag">Stratégie make/buy</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/mirukai/output.gif" alt="Mirukai économie IA" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="collaborer_ac3_title">AC3 - Guider la conduite du changement informatique au sein d'une organisation</h4>
+                                <span class="ce" data-translate="collaborer_ac3_ce">CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire · CE6.02 | en accompagnant les évolutions</span>
+
+                                <a href="projects/stagedsin.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac3_p1_title">Stage DSIN - Accompagner la migration pour les équipes de la DSIN</h5>
+                                            <p data-translate="collaborer_ac3_p1_text">Guider le changement sur SAPIENS signifiait être l'interlocuteur technique entre les décisions DSI et l'implémentation. Cela impliquait : expliquer aux équipes non-techniques les implications de passer de Drupal 7 à 10, documenter les changements pour les administrateurs fonctionnels, et défendre des choix d'architecture (migration progressive vs big bang) auprès de mon tuteur. Cette communication pluridisciplinaire entre technique et métier est au cœur de cet AC.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Conduite du changement</span>
+                                                <span class="tech-tag">Communication transverse</span>
+                                                <span class="tech-tag">Documentation fonctionnelle</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/stageDSIN/video.gif" alt="Conduite du changement SAPIENS" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac3_p2_title">Capital Wars - Le système de plugins comme stratégie de changement</h5>
+                                            <p data-translate="collaborer_ac3_p2_text">L'architecture de plugins de Capital Wars est une réponse à un problème de conduite du changement : comment faire évoluer un jeu pédagogique sans imposer à chaque enseignant une refonte complète de ses scénarios ? Les 3 packs prédéfinis (Basic, Standard, Advanced) permettent une adoption progressive. Concevoir la technologie pour faciliter son adoption comprendre les besoins de M. Chollet et les traduire en contraintes d'architecture dépasse la technique pure.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Adoption progressive</span>
+                                                <span class="tech-tag">Architecture pour le changement</span>
+                                                <span class="tech-tag">Pédagogie</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars changement" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="apprentissage-critique">
+                                <h4 data-translate="collaborer_ac4_title">AC4 - Accompagner le management de projet informatique</h4>
+                                <span class="ce" data-translate="collaborer_ac4_ce">CE6.01 | en inscrivant sa démarche dans une équipe pluridisciplinaire · CE6.04 | en développant une communication collaborative</span>
+
+                                <a href="projects/capitalwars.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac4_p1_title">Capital Wars - Management Agile Scrum sur un an</h5>
+                                            <p data-translate="collaborer_ac4_p1_text">Capital Wars est le projet où le management a été le plus structuré : Agile Scrum sur un an, équipe de 4 développeurs aux rôles différenciés. Backlog GitHub avec tags de priorité, tableau Kanban, daily standups, sprint reviews et rétrospectives bimensuelles. Chaque plugin était sous la responsabilité d'un développeur référent ; les revues de code croisées et les notifications Discord automatisées (CI/CD, tests, merges) maintenaient la synchronisation. J'ai contribué à structurer ces pratiques et à les faire respecter sur la durée.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Agile Scrum</span>
+                                                <span class="tech-tag">GitHub Kanban</span>
+                                                <span class="tech-tag">Revue de code</span>
+                                                <span class="tech-tag">CI/CD automatisé</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/capitalwars/output.gif" alt="Capital Wars management" class="projet-exemple-img">
+                                    </div>
+                                </a>
+
+                                <a href="projects/myavatar.html" class="projet-exemple-link">
+                                    <div class="projet-exemple">
+                                        <div class="projet-exemple-content">
+                                            <h5 data-translate="collaborer_ac4_p2_title">MyAvatar &amp; Nuit de l'Info - Management en conditions contraintes</h5>
+                                            <p data-translate="collaborer_ac4_p2_text">MyAvatar (équipe de 4, Symfony) et la Nuit de l'Info 2025 (hackathon 24h) ont mis à l'épreuve le management dans des contextes très différents. Sur MyAvatar, coordination de la répartition des tâches entre CRUD, permissions, API REST et frontend. Sur la Nuit de l'Info, décisions rapides de priorisation et capacité à réorienter l'équipe quand une piste ne fonctionnait pas. Ces deux expériences complémentaires illustrent la flexibilité du management en fonction du contexte.</p>
+                                            <div class="tech-tags">
+                                                <span class="tech-tag">Management d'équipe</span>
+                                                <span class="tech-tag">Priorisation</span>
+                                                <span class="tech-tag">Hackathon</span>
+                                            </div>
+                                        </div>
+                                        <img src="img/trace/myAvatar/video.gif" alt="MyAvatar management" class="projet-exemple-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div><!-- fin accordion-content niveau3 -->
+                </div><!-- fin accordion-section niveau3 -->
 
                 <!-- Conclusion -->
                 <div id="conclusion" class="conclusion-section">
@@ -509,12 +918,16 @@
                         <strong>Pour la compétence "Administrer"</strong>, mon expérience avec les environnements conteneurisés et les architectures distribuées m'a donné une vision claire des défis de déploiement et de sécurisation des systèmes modernes. Le stage DSIN et le projet CTFD ont été particulièrement formateurs à cet égard.
                     </p>
                     <p class="about-descr" data-translate="conclusion_p5">
-                        <strong>Enfin, la compétence "Gérer"</strong> s'est révélée être un pilier central de mon apprentissage, m'amenant à comprendre les enjeux de l'optimisation des données, de leur sécurisation et de leur exploitation intelligente. Les projets de base de données et les expériences professionnelles m'ont permis de développer une approche holistique de la gestion des données.
+                        <strong>Enfin, la compétence "Gérer"</strong> s'est révélée être un pilier central de mon apprentissage, m'amenant à comprendre les enjeux de l'optimisation des données, de leur sécurisation et de leur exploitation intelligente.
                     </p>
                     <p class="about-descr" data-translate="conclusion_p6">
-                        Je considère avoir atteint un niveau satisfaisant dans ces trois compétences de niveau 2, tout en restant conscient que le développement professionnel est un processus continu. Les bases solides acquises durant ce parcours constituent un excellent tremplin pour mes futures expériences professionnelles et mon évolution dans le domaine de l'informatique, particulièrement dans le contexte de l'intégration d'applications et du management des systèmes d'information.
+                        <strong>Sur les compétences de Niveau 3</strong>, Réaliser trouve sa preuve la plus concrète dans Mirukai en production et la migration SAPIENS deux applications réelles avec des contraintes réelles. Conduire s'appuie sur le stage DSIN comme trace centrale, complété par la conception du SI de Capital Wars. Collaborer repose sur un an de management Agile sur Capital Wars, enrichi par les contextes complémentaires de MyAvatar et de la Nuit de l'Info.
+                    </p>
+                    <p class="about-descr" data-translate="conclusion_p7">
+                        Ce portfolio témoigne d'une trajectoire cohérente sur trois ans : chaque projet, académique ou personnel, a été l'occasion de dépasser l'exécution technique pour développer une posture réflexive comprendre pourquoi une décision est prise, mesurer ses conséquences, et la communiquer aux parties prenantes. C'est cette posture qui définit, au-delà des compétences techniques, un professionnel de l'informatique de niveau 3.
                     </p>
                 </div>
+
             </div>
         </div>
     </div>
@@ -552,25 +965,57 @@
 <script src="js/translationapprentissage.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Animation des sections au scroll
-        const sections = document.querySelectorAll('.competence-section, .intro-section, .conclusion-section');
 
-        const fadeInOptions = {
-            threshold: 0.1,
-            rootMargin: "0px 0px -100px 0px"
-        };
+        // ---- Accordéon ----
+        document.querySelectorAll('.accordion-header').forEach(btn => {
+            const targetId = btn.getAttribute('data-target');
+            const content = document.getElementById(targetId);
 
-        const fadeInOnScroll = new IntersectionObserver(function(entries, fadeInOnScroll) {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) {
-                    return;
+            // Initialiser l'état ouvert
+            if (btn.classList.contains('accordion-header--open')) {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                btn.classList.add('active');
+            }
+
+            btn.addEventListener('click', function() {
+                const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
+                if (isOpen) {
+                    content.style.maxHeight = '0px';
+                    btn.classList.remove('active');
                 } else {
-                    entry.target.style.opacity = 1;
-                    entry.target.style.transform = 'translateY(0)';
-                    fadeInOnScroll.unobserve(entry.target);
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    btn.classList.add('active');
                 }
             });
-        }, fadeInOptions);
+        });
+
+        // Liens nav qui ouvrent l'accordéon si fermé
+        document.querySelectorAll('.nav-accordion-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetSection = document.querySelector(this.getAttribute('href'));
+                const btn = targetSection.querySelector('.accordion-header');
+                const content = document.getElementById(btn.getAttribute('data-target'));
+                if (!content.style.maxHeight || content.style.maxHeight === '0px') {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    btn.classList.add('active');
+                }
+                setTimeout(() => {
+                    window.scrollTo({ top: targetSection.offsetTop - 100, behavior: 'smooth' });
+                }, 50);
+            });
+        });
+
+        // ---- Animations au scroll ----
+        const sections = document.querySelectorAll('.competence-section, .intro-section, .conclusion-section');
+        const fadeInOnScroll = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+                observer.unobserve(entry.target);
+            });
+        }, { threshold: 0.1, rootMargin: "0px 0px -100px 0px" });
 
         sections.forEach(section => {
             section.style.opacity = 0;
@@ -579,19 +1024,13 @@
             fadeInOnScroll.observe(section);
         });
 
-        // Navigation smooth scroll
-        document.querySelectorAll('.section-nav a').forEach(anchor => {
+        // ---- Smooth scroll nav ----
+        document.querySelectorAll('.section-nav a:not(.nav-accordion-link)').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-
-                window.scrollTo({
-                    top: targetElement.offsetTop - 100,
-                    behavior: 'smooth'
-                });
-
-                // Mise en évidence de la section
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (!targetElement) return;
+                window.scrollTo({ top: targetElement.offsetTop - 100, behavior: 'smooth' });
                 targetElement.style.backgroundColor = 'rgba(111, 29, 27, 0.05)';
                 setTimeout(() => {
                     targetElement.style.backgroundColor = 'transparent';
@@ -600,25 +1039,20 @@
             });
         });
 
-        // Active section in navigation
+        // ---- Active section in nav ----
         const sectionNavLinks = document.querySelectorAll('.section-nav a');
-
         window.addEventListener('scroll', () => {
             let current = '';
-
             sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 150)) {
-                    current = "#" + section.getAttribute('id');
-                }
+                if (scrollY >= (section.offsetTop - 150)) current = '#' + section.getAttribute('id');
             });
-
+            ['#introduction', '#niveau2', '#niveau3', '#conclusion'].forEach(id => {
+                const el = document.querySelector(id);
+                if (el && scrollY >= (el.offsetTop - 150)) current = id;
+            });
             sectionNavLinks.forEach(link => {
                 link.classList.remove('active');
-                if (link.getAttribute('href') === current) {
-                    link.classList.add('active');
-                }
+                if (link.getAttribute('href') === current) link.classList.add('active');
             });
         });
     });
