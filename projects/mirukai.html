@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirukai - Raphaël Lambert</title>
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/projects.css" />
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container container-lg">
+        <div class="header-nav">
+            <a href="../index.html" class="logo">R<span>.</span>Lambert</a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html#home" class="nav-link" data-translate="home">Accueil</a></li>
+                    <li class="nav-item"><a href="../index.html#about" class="nav-link" data-translate="about">À propos</a></li>
+                    <li class="nav-item">
+                        <a href="../index.html#projects" class="nav-link active" data-translate="projects">Projets</a>
+                        <ul class="dropdown">
+                            <li><a href="mirukai.html" class="dropdown-item">Mirukai - Recommandation d'Animés</a></li>
+                            <li><a href="capitalwars.html" class="dropdown-item">Capital Wars</a></li>
+                            <li><a href="saectf.html" class="dropdown-item">CTFD</a></li>
+                            <li><a href="saetrains.html" class="dropdown-item">SAE - Trains</a></li>
+                            <li><a href="saebd.html" class="dropdown-item">SAE - BD Streaming Musical</a></li>
+                            <li><a href="saemagasin.html" class="dropdown-item">Plateforme E-commerce</a></li>
+                            <li><a href="saecontroverse.html" class="dropdown-item">SAE - Controverse</a></li>
+                            <li><a href="saetournoi.html" class="dropdown-item">SAE - Charlie's festival adventure</a></li>
+                            <li><a href="stagedsin.html" class="dropdown-item">Stage DSIN - SA.P.I.E.N.S</a></li>
+                            <li><a href="myavatar.html" class="dropdown-item">MyAvatar - Service de Gestion d'Avatars</a></li>
+                            <li><a href="nuitinfo2025.html" class="dropdown-item">Nuit de l'Info 2025 - NIRD Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../apprentissage.html" class="nav-link" data-translate="portfolio_learning">Portfolio d'apprentissage</a>
+                    </li>
+                    <li class="nav-item"><a href="../index.html#contact" class="nav-link" data-translate="contact">Contact</a></li>
+                    <li class="nav-item">
+                        <select id="languageSelect" class="language-select">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                        </select>
+                    </li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                    <img id="nav-btn-img" src="../img/icons/open.svg" alt="Navigation button"/>
+                </button>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="hero" style="padding: 12rem 0 5rem;">
+    <div class="container">
+        <div class="projects-title">
+            <h2 class="title" data-translate="project_title">Mirukai — Moteur de Recommandation d'Animés</h2>
+        </div>
+
+        <div class="about-row">
+            <!-- Navigation des sections -->
+            <div class="about-content" style="flex: 25%;">
+                <div class="section-nav">
+                    <ul>
+                        <li><a href="#contexte" data-translate="project_context">Contexte</a></li>
+                        <li><a href="#deroulement" data-translate="project_progress">Déroulement du projet</a></li>
+                        <li><a href="#defis" data-translate="technical_challenges">Défis techniques</a></li>
+                        <li><a href="#competences" data-translate="skills_acquired">Compétences acquises</a></li>
+                        <li><a href="#conclusion" data-translate="conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="about-skills" style="flex: 75%; min-width: 0;">
+                <a href="https://mirukai.rlbrt.fr/" target="_blank" class="btn" data-translate="link_to_project">Lien vers le projet</a>
+                <a href="../Mirukai.pdf" target="_blank" class="btn btn-white" data-translate="link_report">Dossier de production</a>
+
+                <!-- Contexte -->
+                <div id="contexte" class="project-section">
+                    <h3 data-translate="project_context">Contexte</h3>
+                    <p class="about-descr" data-translate="context_text_p1">
+                        Mirukai est un projet personnel né de ma passion pour les animés et de ma volonté de maîtriser l'écosystème JavaScript moderne. Le nom vient du japonais : <strong>Miru</strong> (見る, regarder) et <strong>Kai</strong> (界, monde) — <em>"Trouve le prochain animé que tu vas aimer."</em>
+                    </p>
+                    <p class="about-descr" data-translate="context_text_p2">
+                        Développé seul, de la conception à la mise en production, Mirukai est une application web full-stack en production accessible publiquement sur <strong>mirukai.rlbrt.fr</strong>. Le défi central : recommander intelligemment un animé adapté à chaque utilisateur en combinant son historique AniList, un modèle vectoriel de goûts et un LLM pour des explications personnalisées.
+                    </p>
+                    <p class="about-descr" data-translate="context_text_p3">
+                        Ce projet illustre ce que le cursus académique n'enseigne pas directement : l'autonomie technique complète, depuis le choix de la stack jusqu'aux décisions d'architecture en production, sans encadrement ni contrainte pédagogique.
+                    </p>
+                    <img src="../img/trace/mirukai/output.gif" alt="Gif project Mirukai">
+                </div>
+
+                <!-- Déroulement -->
+                <div id="deroulement" class="project-section">
+                    <h3 data-translate="project_progress">Déroulement du projet</h3>
+
+                    <h4 data-translate="phase_engine_title">Moteur de recommandation</h4>
+                    <p class="about-descr" data-translate="phase_engine_desc">
+                        Le cœur de Mirukai est un algorithme de recommandation vectoriel construit sur un catalogue PostgreSQL de ~3500 animés synchronisé quotidiennement depuis l'API AniList.
+                    </p>
+                    <ul class="challenge-list">
+                        <li data-translate="engine_list.0"><strong>Taste vector</strong> — À partir de la liste de l'utilisateur, construction d'un vecteur de préférences pondéré par genres, tags et studios, avec une pondération IDF (Inverse Document Frequency) calculée sur tout le catalogue pour valoriser les goûts spécifiques au détriment des genres communs</li>
+                        <li data-translate="engine_list.1"><strong>Scoring multi-critères</strong> — Chaque animé candidat reçoit un score composé : similarité genre (×0.30), tags (×0.40), studios (×0.10), qualité communautaire AniList (×0.15), popularité (×0.05), avec pénalité sur les genres détestés</li>
+                        <li data-translate="engine_list.2"><strong>Simulations pondérées</strong> — <code>runSimulations(5, pool=30)</code> : 5 tirages probabilistes dans le top-30 candidats, le gagnant étant celui avec le meilleur score communautaire AniList — pour éviter la répétition du même animé #1 tout en garantissant la qualité</li>
+                        <li data-translate="engine_list.3"><strong>Filtre prequel TV</strong> — Seuls les animés sans préquel TV sont recommandés, garantissant toujours le point d'entrée d'une franchise</li>
+                        <li data-translate="engine_list.4"><strong>Profil utilisateur adaptatif</strong> — Seuils personnalisés (excellent / bien / moyen) calculés par moyenne ± écart-type sur les notes de l'utilisateur, reflétant son échelle personnelle de notation</li>
+                    </ul>
+
+                    <h4 data-translate="phase_auth_title">Authentification & Données</h4>
+                    <ul class="challenge-list">
+                        <li data-translate="auth_list.0">OAuth2 AniList avec 3 applications distinctes (production, développement, local) et compte email/password natif Mirukai</li>
+                        <li data-translate="auth_list.1">Sessions chiffrées via <code>iron-session</code> (cookies httpOnly), mots de passe hachés avec <code>scrypt</code> natif Node.js (timing-safe)</li>
+                        <li data-translate="auth_list.2">Catalogue PostgreSQL de ~3500 animés avec synchronisation quotidienne automatique depuis AniList GraphQL</li>
+                        <li data-translate="auth_list.3">Données streaming JustWatch GraphQL : plateformes disponibles en France, nombre de saisons, sync lazy par animé ou bulk admin</li>
+                        <li data-translate="auth_list.4">Cache Redis : listes utilisateurs (TTL 1h), suggestions journalières, rate limiting (200 req/h par utilisateur)</li>
+                    </ul>
+
+                    <h4 data-translate="phase_llm_title">LLM & Intelligence artificielle</h4>
+                    <ul class="challenge-list">
+                        <li data-translate="llm_list.0"><strong>Gemini 2.0 Flash</strong> (primaire) — Traduction des synopsis en français et génération d'explications personnalisées basées sur les références de goût de l'utilisateur</li>
+                        <li data-translate="llm_list.1"><strong>Groq llama-3.1-8b</strong> (fallback) — Bascule automatique si Gemini est indisponible, sans interruption du service</li>
+                        <li data-translate="llm_list.2"><code>pickDiverseReferences()</code> — Sélection intelligente de 2-4 animés de la liste utilisateur maximisant la diversité de genres pour alimenter le LLM avec des références équilibrées</li>
+                        <li data-translate="llm_list.3">Appels LLM parallèles (traduction + explication), section explication masquée côté UI si le LLM retourne null</li>
+                    </ul>
+
+                    <h4 data-translate="phase_infra_title">Infrastructure & DevOps</h4>
+                    <ul class="challenge-list">
+                        <li data-translate="infra_list.0">Stack Docker Compose : Next.js 16 + PostgreSQL 16 + Redis 7, hébergée sur un conteneur LXC Proxmox auto-géré</li>
+                        <li data-translate="infra_list.1">Reverse proxy Nginx avec SSL Let's Encrypt (Certbot), routage vers deux environnements distincts (prod port 8080, dev port 8081)</li>
+                        <li data-translate="infra_list.2">CI/CD GitHub Actions : build image Docker → push GHCR → déploiement SSH automatisé sans downtime (<code>docker compose up --no-deps</code>)</li>
+                        <li data-translate="infra_list.3">Environnements production (<code>mirukai.rlbrt.fr</code>) et staging (<code>dev.mirukai.rlbrt.fr</code>) gérés depuis les branches git <code>main</code> et <code>dev</code></li>
+                    </ul>
+                </div>
+
+                <!-- Défis -->
+                <div id="defis" class="project-section">
+                    <h3 data-translate="technical_challenges">Défis Techniques</h3>
+                    <ul class="challenge-list">
+                        <li data-translate="challenges_list.0">Algorithme de recommandation vectoriel : construction du taste vector avec IDF dynamique sur ~3500 animés, système de simulations pondérées pour garantir variété et qualité simultanément — éviter le candidat #1 fixe sans dégrader la pertinence</li>
+                        <li data-translate="challenges_list.1">Gestion du cold-start : deux logiques distinctes (scoring vectoriel ≥10 animés / top populaires pondérés &lt;10 animés) transparentes pour l'utilisateur, avec retour <code>coldStart: true</code> dans la réponse API pour adapter l'UI</li>
+                        <li data-translate="challenges_list.2">Intégration JustWatch GraphQL (API non officielle, non documentée) : identification du matching par <code>technicalName</code>, TTL 15 jours, rate limiting 600ms entre requêtes, fallback sur les liens externes AniList si données absentes</li>
+                        <li data-translate="challenges_list.3">Résilience LLM avec double provider : appels parallèles traduction + explication, bascule automatique Gemini → Groq, gestion des cas null avec masquage côté UI plutôt que message d'erreur</li>
+                        <li data-translate="challenges_list.4">Infrastructure multi-environnement auto-hébergée : deux stacks Docker indépendantes sur un seul CT Proxmox, déploiement continu sans interruption, gestion des secrets par fichiers <code>.env</code> séparés par environnement</li>
+                        <li data-translate="challenges_list.5">Cache multi-niveaux : Redis pour les listes utilisateurs (évite les appels AniList répétés), rate limiting distribué par user, suggestions journalières idempotentes (même résultat si redemandé dans la journée)</li>
+                    </ul>
+                </div>
+
+                <!-- Compétences -->
+                <div id="competences" class="project-section">
+                    <h3 data-translate="skills_acquired">Compétences Acquises</h3>
+                    <ul class="challenge-list">
+                        <li data-translate="skills_list.0">Next.js 16 App Router et TypeScript : architecture full-stack moderne, API Routes REST, composants React avec Tailwind CSS v4, gestion d'état serveur et client</li>
+                        <li data-translate="skills_list.1">Algorithmes de recommandation : modèle vectoriel pondéré, IDF, simulations probabilistes Monte Carlo, gestion du cold-start — capacité à traduire un besoin métier en modèle mathématique implémentable</li>
+                        <li data-translate="skills_list.2">Intégrations API avancées : GraphQL (AniList, JustWatch), REST LLM (Gemini, Groq), OAuth2 PKCE — gestion de la résilience, des fallbacks et des limites de débit</li>
+                        <li data-translate="skills_list.3">DevOps complet : Docker Compose, CI/CD GitHub Actions + GHCR, déploiement SSH automatisé, Nginx reverse proxy, SSL Let's Encrypt, administration Proxmox LXC</li>
+                        <li data-translate="skills_list.4">Gestion des données à l'échelle : PostgreSQL avec requêtes optimisées sur catalogue large, stratégie de cache Redis multi-usage, synchronisation asynchrone et lazy loading</li>
+                        <li data-translate="skills_list.5">Autonomie technique end-to-end : conception, développement, mise en production et maintenance d'un projet complet sans supervision, avec prise de décisions d'architecture sous contraintes réelles</li>
+                    </ul>
+                </div>
+
+                <!-- Conclusion -->
+                <div id="conclusion" class="project-section">
+                    <h3 data-translate="conclusion">Conclusion</h3>
+                    <p class="about-descr" data-translate="conclusion_text_p1">
+                        Mirukai représente ma capacité à mener un projet de bout en bout, hors cadre académique : choix de la stack, conception de l'algorithme, intégration d'APIs tierces, déploiement et maintenance d'une application en production réelle. Chaque décision technique — du modèle vectoriel au choix de Redis comme cache distribué — a été prise et assumée seul.
+                    </p>
+                    <p class="about-descr" data-translate="conclusion_text_p2">
+                        Il illustre ce que le cursus n'enseigne pas directement : résoudre des problèmes concrets (cold-start, latence LLM, API non documentée) avec les contraintes d'un service en production. Ce projet personnel, accessible publiquement, est la preuve de mon engagement au-delà des projets académiques et de ma passion durable pour le développement web.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation entre projets -->
+        <div style="display: flex; justify-content: space-between; margin-top: 6rem;">
+            <a href="nuitinfo2025.html" class="btn btn-white" data-translate="previous_project">← Projet Précédent</a>
+            <a href="capitalwars.html" class="btn btn-white" data-translate="next_project">Projet Suivant →</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="social-links-row footer-social">
+                <a href="https://github.com/Raphlbrt" target="_blank">
+                    <img src="../img/social_icons/github.svg" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/raphael-lambert/" target="_blank">
+                    <img src="../img/social_icons/linkedin.svg" alt="LinkedIn"/>
+                </a>
+                <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/lambertr" target="_blank">
+                    <img src="../img/social_icons/gitlab.png" alt="GitLab"/>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; Copyright Raphaël Lambert 2025 | Designed by Raphaël Lambert</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="goToTop" class="goToTop">
+    <a href="#header">
+        <img src="../img/icons/arrow_up.svg" alt="Back to top"/>
+    </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/translationmirukai.js"></script>
+</body>
+</html>
