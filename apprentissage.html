@@ -76,8 +76,22 @@
                 <div class="section-nav">
                     <ul>
                         <li><a href="#introduction" data-translate="nav_introduction">Introduction</a></li>
-                        <li><a href="#niveau2" class="nav-accordion-link" data-translate="nav_niveau2">Compétences Niveau 2</a></li>
-                        <li><a href="#niveau3" class="nav-accordion-link" data-translate="nav_niveau3">Compétences Niveau 3</a></li>
+                        <li>
+                            <a href="#niveau2" class="nav-accordion-link" data-translate="nav_niveau2">Compétences Niveau 2</a>
+                            <ul class="section-nav-sub">
+                                <li><a href="#optimiser" class="nav-accordion-link" data-translate="nav_optimiser">Optimiser</a></li>
+                                <li><a href="#administrer" class="nav-accordion-link" data-translate="nav_administrer">Administrer</a></li>
+                                <li><a href="#gerer" class="nav-accordion-link" data-translate="nav_gerer">Gérer</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#niveau3" class="nav-accordion-link" data-translate="nav_niveau3">Compétences Niveau 3</a>
+                            <ul class="section-nav-sub">
+                                <li><a href="#realiser" class="nav-accordion-link" data-translate="realiser_nav">Réaliser</a></li>
+                                <li><a href="#conduire" class="nav-accordion-link" data-translate="conduire_nav">Conduire</a></li>
+                                <li><a href="#collaborer" class="nav-accordion-link" data-translate="collaborer_nav">Collaborer</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#conclusion" data-translate="nav_conclusion">Conclusion</a></li>
                     </ul>
                 </div>
@@ -989,19 +1003,36 @@
             });
         });
 
-        // Liens nav qui ouvrent l'accordéon si fermé
+        // Liens nav qui ouvrent l'accordéon si fermé (gère aussi les sous-sections)
         document.querySelectorAll('.nav-accordion-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
-                const targetSection = document.querySelector(this.getAttribute('href'));
-                const btn = targetSection.querySelector('.accordion-header');
-                const content = document.getElementById(btn.getAttribute('data-target'));
-                if (!content.style.maxHeight || content.style.maxHeight === '0px') {
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                    btn.classList.add('active');
+                const href = this.getAttribute('href');
+                const targetEl = document.querySelector(href);
+                if (!targetEl) return;
+
+                // Si la cible est une sous-section (competence-section), on remonte
+                // trouver l'accordéon parent et on l'ouvre si nécessaire
+                const parentAccordionContent = targetEl.closest('.accordion-content');
+                if (parentAccordionContent) {
+                    if (!parentAccordionContent.style.maxHeight || parentAccordionContent.style.maxHeight === '0px') {
+                        const parentAccordionSection = parentAccordionContent.closest('.accordion-section');
+                        const btn = parentAccordionSection.querySelector('.accordion-header');
+                        parentAccordionContent.style.maxHeight = parentAccordionContent.scrollHeight + 'px';
+                        btn.classList.add('active');
+                    }
+                } else if (targetEl.classList.contains('accordion-section')) {
+                    // Cible directe = un accordéon, on l'ouvre
+                    const btn = targetEl.querySelector('.accordion-header');
+                    const content = document.getElementById(btn.getAttribute('data-target'));
+                    if (!content.style.maxHeight || content.style.maxHeight === '0px') {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        btn.classList.add('active');
+                    }
                 }
+
                 setTimeout(() => {
-                    window.scrollTo({ top: targetSection.offsetTop - 100, behavior: 'smooth' });
+                    window.scrollTo({ top: targetEl.offsetTop - 100, behavior: 'smooth' });
                 }, 50);
             });
         });

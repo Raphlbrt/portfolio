@@ -17,6 +17,9 @@ const translations = {
         nav_administrer: "\"Administer\" Competency",
         nav_gerer: "\"Manage\" Competency",
         nav_conclusion: "Conclusion",
+        realiser_nav: "Realize",
+        conduire_nav: "Lead",
+        collaborer_nav: "Collaborate",
 
         // Accordion titles
         niveau2_section_title: "Level 2 Competencies - Semesters 1-4 (Optimize · Administer · Manage)",
@@ -224,6 +227,9 @@ const translations = {
         nav_administrer: "Compétence \"Administrer\"",
         nav_gerer: "Compétence \"Gérer\"",
         nav_conclusion: "Conclusion",
+        realiser_nav: "Réaliser",
+        conduire_nav: "Conduire",
+        collaborer_nav: "Collaborer",
 
         // Accordion titles
         niveau2_section_title: "Compétences Niveau 2 - Semestres 1-4 (Optimiser · Administrer · Gérer)",

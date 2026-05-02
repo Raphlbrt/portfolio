@@ -138,6 +138,29 @@
     font-weight: 500;
 }
 
+/* ---- Sous-navigation ---- */
+.section-nav-sub {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border-left: 2px solid rgba(111, 29, 27, 0.2);
+}
+
+.section-nav-sub li {
+    margin-bottom: 0.2rem;
+}
+
+.section-nav-sub a {
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+.section-nav-sub a:hover,
+.section-nav-sub a.active {
+    opacity: 1;
+}
+
 /* ---- Accordéon ---- */
 .accordion-section {
     margin-bottom: 2.5rem;
