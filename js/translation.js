@@ -20,7 +20,10 @@ const translations = {
         descr_about_me_1:"Hello and welcome to my portfolio !",
         descr_about_me_2:"I am currently a third-year student in the BUT Computer Science program at the IUT of Montpellier. Passionate about web development, I have developed strong skills in PHP, Java, HTML, CSS, and Docker containerization.",
         descr_about_me_3:"Motivated, curious, and adaptable, I am always eager to take on new challenges and actively contribute to innovative projects. My goal is to continue enhancing my technical skills while engaging in enriching experiences that help me grow both professionally and personally.",
-        descr_about_me_4:"Feel free to explore my projects !",
+        descr_about_me_4_pre:"Beyond the technical side, I am an active member of",
+        descr_about_me_4_post:", a Montpellier-based association that brings together video game enthusiasts through events promoting sharing and cultural exchange. Organising and participating in these events has strengthened my teamwork, communication and event-management skills.",
+        descr_about_me_5:"Feel free to explore my projects and reach out for any collaboration or discussion about technology!",
+        or_email: "Or reach me directly at",
 
         // Services
         title_service_frontend: "Frontend Development",
@@ -36,7 +39,9 @@ const translations = {
 
         // Career section
         career_path: "Career Path",
+        career_2026_stage: "2nd DSIN Internship - University of Montpellier",
         career_2025_3: "BUT Computer Science, Montpellier 3rd year",
+        career_2025_iae: "Bachelor's in Technology Management & E-learning Sciences - IAE, University of Montpellier",
         career_2025_2:"DSIN Developer - University of Montpellier",
         career_2025: "DSIN Internship - University of Montpellier",
         career_2024: "BUT Computer Science, Montpellier 2nd year",
@@ -121,7 +126,10 @@ const translations = {
         descr_about_me_1:"Bonjour et bienvenue sur mon portfolio !",
         descr_about_me_2:"Je suis actuellement étudiant en troisième année de BUT Informatique à l’IUT de Montpellier. Passionné par le développement web, j’ai acquis des compétences solides en PHP, Java, HTML, CSS, ainsi qu’en conteneurisation avec Docker.",
         descr_about_me_3:"Motivé, curieux et adaptable, je suis toujours prêt à relever de nouveaux défis et à contribuer activement à des projets innovants. Mon objectif est de continuer à développer mes compétences techniques tout en participant à des expériences enrichissantes qui me permettront de grandir, tant sur le plan professionnel que personnel.",
-        descr_about_me_4:"N’hésitez pas à explorer mes projets !",
+        descr_about_me_4_pre:"Au-delà du technique, je suis membre actif de l’association",
+        descr_about_me_4_post:", basée à Montpellier, qui rassemble les passionnés de jeux vidéo autour d’événements favorisant le partage et les échanges culturels. M’impliquer dans l’organisation de ces événements a renforcé mes compétences en travail d’équipe, communication et gestion événementielle.",
+        descr_about_me_5:"N’hésitez pas à explorer mes projets et à me contacter pour toute collaboration ou discussion autour de la technologie !",
+        or_email: "Ou contactez-moi directement à",
 
         // Services
         title_service_frontend: "Développement Frontend",
@@ -136,7 +144,9 @@ const translations = {
 
         // Career section
         career_path: "Parcours",
+        career_2026_stage: "2ème Stage DSIN - Université de Montpellier",
         career_2025_3: "BUT Informatique, Montpellier 3ème année",
+        career_2025_iae: "Licence Management Technologies et Sciences E-learning - IAE, Université de Montpellier",
         career_2025_2:"Developpeur DSIN - Université de Montpellier",
         career_2025: "Stage DSIN - Université de Montpellier",
         career_2024: "BUT Informatique, Montpellier 2ème année",

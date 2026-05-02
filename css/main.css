@@ -775,13 +775,19 @@ h5 {
 .timeline-item {
   opacity: 0;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease;
   transform: translateY(30px);
+}
+
+.timeline-description--sub {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .timeline-item.visible {
@@ -806,15 +812,16 @@ h5 {
 
 .timeline-year {
   color: #e31b6d;
-  font-size: 1.2em;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .timeline-description {
   margin: 0;
   line-height: 1.5;
   color: #333;
+  font-size: 1.5rem;
 }
 
 .timeline-dot {
