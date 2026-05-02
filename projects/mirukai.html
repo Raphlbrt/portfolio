@@ -64,7 +64,7 @@
 <section class="hero" style="padding: 12rem 0 5rem;">
     <div class="container">
         <div class="projects-title">
-            <h2 class="title" data-translate="project_title">Mirukai — Moteur de Recommandation d'Animés</h2>
+            <h2 class="title" data-translate="project_title">Mirukai - Moteur de Recommandation d'Animés</h2>
         </div>
 
         <div class="about-row">
@@ -90,7 +90,7 @@
                 <div id="contexte" class="project-section">
                     <h3 data-translate="project_context">Contexte</h3>
                     <p class="about-descr" data-translate="context_text_p1">
-                        Mirukai est un projet personnel né de ma passion pour les animés et de ma volonté de maîtriser l'écosystème JavaScript moderne. Le nom vient du japonais : <strong>Miru</strong> (見る, regarder) et <strong>Kai</strong> (界, monde) — <em>"Trouve le prochain animé que tu vas aimer."</em>
+                        Mirukai est un projet personnel né de ma passion pour les animés et de ma volonté de maîtriser l'écosystème JavaScript moderne. Le nom vient du japonais : <strong>Miru</strong> (見る, regarder) et <strong>Kai</strong> (界, monde)  <em>"Trouve le prochain animé que tu vas aimer."</em>
                     </p>
                     <p class="about-descr" data-translate="context_text_p2">
                         Développé seul, de la conception à la mise en production, Mirukai est une application web full-stack en production accessible publiquement sur <strong>mirukai.rlbrt.fr</strong>. Le défi central : recommander intelligemment un animé adapté à chaque utilisateur en combinant son historique AniList, un modèle vectoriel de goûts et un LLM pour des explications personnalisées.
@@ -110,11 +110,11 @@
                         Le cœur de Mirukai est un algorithme de recommandation vectoriel construit sur un catalogue PostgreSQL de ~3500 animés synchronisé quotidiennement depuis l'API AniList.
                     </p>
                     <ul class="challenge-list">
-                        <li data-translate="engine_list.0"><strong>Taste vector</strong> — À partir de la liste de l'utilisateur, construction d'un vecteur de préférences pondéré par genres, tags et studios, avec une pondération IDF (Inverse Document Frequency) calculée sur tout le catalogue pour valoriser les goûts spécifiques au détriment des genres communs</li>
-                        <li data-translate="engine_list.1"><strong>Scoring multi-critères</strong> — Chaque animé candidat reçoit un score composé : similarité genre (×0.30), tags (×0.40), studios (×0.10), qualité communautaire AniList (×0.15), popularité (×0.05), avec pénalité sur les genres détestés</li>
-                        <li data-translate="engine_list.2"><strong>Simulations pondérées</strong> — <code>runSimulations(5, pool=30)</code> : 5 tirages probabilistes dans le top-30 candidats, le gagnant étant celui avec le meilleur score communautaire AniList — pour éviter la répétition du même animé #1 tout en garantissant la qualité</li>
-                        <li data-translate="engine_list.3"><strong>Filtre prequel TV</strong> — Seuls les animés sans préquel TV sont recommandés, garantissant toujours le point d'entrée d'une franchise</li>
-                        <li data-translate="engine_list.4"><strong>Profil utilisateur adaptatif</strong> — Seuils personnalisés (excellent / bien / moyen) calculés par moyenne ± écart-type sur les notes de l'utilisateur, reflétant son échelle personnelle de notation</li>
+                        <li data-translate="engine_list.0"><strong>Taste vector</strong>  À partir de la liste de l'utilisateur, construction d'un vecteur de préférences pondéré par genres, tags et studios, avec une pondération IDF (Inverse Document Frequency) calculée sur tout le catalogue pour valoriser les goûts spécifiques au détriment des genres communs</li>
+                        <li data-translate="engine_list.1"><strong>Scoring multi-critères</strong>  Chaque animé candidat reçoit un score composé : similarité genre (×0.30), tags (×0.40), studios (×0.10), qualité communautaire AniList (×0.15), popularité (×0.05), avec pénalité sur les genres détestés</li>
+                        <li data-translate="engine_list.2"><strong>Simulations pondérées</strong>  <code>runSimulations(5, pool=30)</code> : 5 tirages probabilistes dans le top-30 candidats, le gagnant étant celui avec le meilleur score communautaire AniList  pour éviter la répétition du même animé #1 tout en garantissant la qualité</li>
+                        <li data-translate="engine_list.3"><strong>Filtre prequel TV</strong>  Seuls les animés sans préquel TV sont recommandés, garantissant toujours le point d'entrée d'une franchise</li>
+                        <li data-translate="engine_list.4"><strong>Profil utilisateur adaptatif</strong>  Seuils personnalisés (excellent / bien / moyen) calculés par moyenne ± écart-type sur les notes de l'utilisateur, reflétant son échelle personnelle de notation</li>
                     </ul>
 
                     <h4 data-translate="phase_auth_title">Authentification & Données</h4>
@@ -128,9 +128,9 @@
 
                     <h4 data-translate="phase_llm_title">LLM & Intelligence artificielle</h4>
                     <ul class="challenge-list">
-                        <li data-translate="llm_list.0"><strong>Gemini 2.0 Flash</strong> (primaire) — Traduction des synopsis en français et génération d'explications personnalisées basées sur les références de goût de l'utilisateur</li>
-                        <li data-translate="llm_list.1"><strong>Groq llama-3.1-8b</strong> (fallback) — Bascule automatique si Gemini est indisponible, sans interruption du service</li>
-                        <li data-translate="llm_list.2"><code>pickDiverseReferences()</code> — Sélection intelligente de 2-4 animés de la liste utilisateur maximisant la diversité de genres pour alimenter le LLM avec des références équilibrées</li>
+                        <li data-translate="llm_list.0"><strong>Gemini 2.0 Flash</strong> (primaire)  Traduction des synopsis en français et génération d'explications personnalisées basées sur les références de goût de l'utilisateur</li>
+                        <li data-translate="llm_list.1"><strong>Groq llama-3.1-8b</strong> (fallback)  Bascule automatique si Gemini est indisponible, sans interruption du service</li>
+                        <li data-translate="llm_list.2"><code>pickDiverseReferences()</code>  Sélection intelligente de 2-4 animés de la liste utilisateur maximisant la diversité de genres pour alimenter le LLM avec des références équilibrées</li>
                         <li data-translate="llm_list.3">Appels LLM parallèles (traduction + explication), section explication masquée côté UI si le LLM retourne null</li>
                     </ul>
 
@@ -147,7 +147,7 @@
                 <div id="defis" class="project-section">
                     <h3 data-translate="technical_challenges">Défis Techniques</h3>
                     <ul class="challenge-list">
-                        <li data-translate="challenges_list.0">Algorithme de recommandation vectoriel : construction du taste vector avec IDF dynamique sur ~3500 animés, système de simulations pondérées pour garantir variété et qualité simultanément — éviter le candidat #1 fixe sans dégrader la pertinence</li>
+                        <li data-translate="challenges_list.0">Algorithme de recommandation vectoriel : construction du taste vector avec IDF dynamique sur ~3500 animés, système de simulations pondérées pour garantir variété et qualité simultanément  éviter le candidat #1 fixe sans dégrader la pertinence</li>
                         <li data-translate="challenges_list.1">Gestion du cold-start : deux logiques distinctes (scoring vectoriel ≥10 animés / top populaires pondérés &lt;10 animés) transparentes pour l'utilisateur, avec retour <code>coldStart: true</code> dans la réponse API pour adapter l'UI</li>
                         <li data-translate="challenges_list.2">Intégration JustWatch GraphQL (API non officielle, non documentée) : identification du matching par <code>technicalName</code>, TTL 15 jours, rate limiting 600ms entre requêtes, fallback sur les liens externes AniList si données absentes</li>
                         <li data-translate="challenges_list.3">Résilience LLM avec double provider : appels parallèles traduction + explication, bascule automatique Gemini → Groq, gestion des cas null avec masquage côté UI plutôt que message d'erreur</li>
@@ -161,8 +161,8 @@
                     <h3 data-translate="skills_acquired">Compétences Acquises</h3>
                     <ul class="challenge-list">
                         <li data-translate="skills_list.0">Next.js 16 App Router et TypeScript : architecture full-stack moderne, API Routes REST, composants React avec Tailwind CSS v4, gestion d'état serveur et client</li>
-                        <li data-translate="skills_list.1">Algorithmes de recommandation : modèle vectoriel pondéré, IDF, simulations probabilistes Monte Carlo, gestion du cold-start — capacité à traduire un besoin métier en modèle mathématique implémentable</li>
-                        <li data-translate="skills_list.2">Intégrations API avancées : GraphQL (AniList, JustWatch), REST LLM (Gemini, Groq), OAuth2 PKCE — gestion de la résilience, des fallbacks et des limites de débit</li>
+                        <li data-translate="skills_list.1">Algorithmes de recommandation : modèle vectoriel pondéré, IDF, simulations probabilistes Monte Carlo, gestion du cold-start  capacité à traduire un besoin métier en modèle mathématique implémentable</li>
+                        <li data-translate="skills_list.2">Intégrations API avancées : GraphQL (AniList, JustWatch), REST LLM (Gemini, Groq), OAuth2 PKCE  gestion de la résilience, des fallbacks et des limites de débit</li>
                         <li data-translate="skills_list.3">DevOps complet : Docker Compose, CI/CD GitHub Actions + GHCR, déploiement SSH automatisé, Nginx reverse proxy, SSL Let's Encrypt, administration Proxmox LXC</li>
                         <li data-translate="skills_list.4">Gestion des données à l'échelle : PostgreSQL avec requêtes optimisées sur catalogue large, stratégie de cache Redis multi-usage, synchronisation asynchrone et lazy loading</li>
                         <li data-translate="skills_list.5">Autonomie technique end-to-end : conception, développement, mise en production et maintenance d'un projet complet sans supervision, avec prise de décisions d'architecture sous contraintes réelles</li>
@@ -173,7 +173,7 @@
                 <div id="conclusion" class="project-section">
                     <h3 data-translate="conclusion">Conclusion</h3>
                     <p class="about-descr" data-translate="conclusion_text_p1">
-                        Mirukai représente ma capacité à mener un projet de bout en bout, hors cadre académique : choix de la stack, conception de l'algorithme, intégration d'APIs tierces, déploiement et maintenance d'une application en production réelle. Chaque décision technique — du modèle vectoriel au choix de Redis comme cache distribué — a été prise et assumée seul.
+                        Mirukai représente ma capacité à mener un projet de bout en bout, hors cadre académique : choix de la stack, conception de l'algorithme, intégration d'APIs tierces, déploiement et maintenance d'une application en production réelle. Chaque décision technique  du modèle vectoriel au choix de Redis comme cache distribué  a été prise et assumée seul.
                     </p>
                     <p class="about-descr" data-translate="conclusion_text_p2">
                         Il illustre ce que le cursus n'enseigne pas directement : résoudre des problèmes concrets (cold-start, latence LLM, API non documentée) avec les contraintes d'un service en production. Ce projet personnel, accessible publiquement, est la preuve de mon engagement au-delà des projets académiques et de ma passion durable pour le développement web.

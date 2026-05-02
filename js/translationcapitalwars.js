@@ -40,12 +40,12 @@ const translations = {
         phase_plugins_fun_title: "Fun Plugins",
         phase_quality_title: "Quality & Project Management",
 
-        plugin_bourse: "Stock Market — Complete financial market: share issuance, share buyback, hostile takeover (OPA), bond issuance, stock split, credit rating (AAA → D) and dividends. Randomly generated fictitious companies feed the market.",
-        plugin_chat: "Chat — Real-time messaging via AJAX polling: general lobby chat and private conversations between players. A dedicated ChatController manages message creation and retrieval.",
-        plugin_placement: "Factory Placement — Three location types (Locality, Low Costy, Premiumy) influencing productivity, workforce, operations, marketing and construction coefficients. Direct impact on the Income Statement.",
-        plugin_rh: "HR Characters — Job market with 9 types of special characters (HR Director, Manager, Coach, Researcher, Marketing Expert, Accountant, Headhunter, Marketing, Construction Expert). Each character provides passive or active bonuses, can be trained to level up stars and affects finances.",
-        plugin_events: "Random Events (PESTEL) — Macroeconomic risk management system: 6 disasters following the PESTEL model (Political, Economic, Social, Technological, Environmental, Legal). Each disaster has specific impacts attenuated by a per-company resilience index. Configurable multi-risk insurance system.",
-        plugin_hippique: "Horse Racing — Entertainment module allowing companies to bet on horse races and diversify their financial strategies.",
+        plugin_bourse: "Stock Market  Complete financial market: share issuance, share buyback, hostile takeover (OPA), bond issuance, stock split, credit rating (AAA → D) and dividends. Randomly generated fictitious companies feed the market.",
+        plugin_chat: "Chat  Real-time messaging via AJAX polling: general lobby chat and private conversations between players. A dedicated ChatController manages message creation and retrieval.",
+        plugin_placement: "Factory Placement  Three location types (Locality, Low Costy, Premiumy) influencing productivity, workforce, operations, marketing and construction coefficients. Direct impact on the Income Statement.",
+        plugin_rh: "HR Characters  Job market with 9 types of special characters (HR Director, Manager, Coach, Researcher, Marketing Expert, Accountant, Headhunter, Marketing, Construction Expert). Each character provides passive or active bonuses, can be trained to level up stars and affects finances.",
+        plugin_events: "Random Events (PESTEL)  Macroeconomic risk management system: 6 disasters following the PESTEL model (Political, Economic, Social, Technological, Environmental, Legal). Each disaster has specific impacts attenuated by a per-company resilience index. Configurable multi-risk insurance system.",
+        plugin_hippique: "Horse Racing  Entertainment module allowing companies to bet on horse races and diversify their financial strategies.",
 
         quality_list: [
             "Agile Scrum methodology: sprints, daily standups, sprint reviews and retrospectives",
@@ -76,7 +76,7 @@ const translations = {
         ],
 
         conclusion_text_p1: "Capital Wars is the most ambitious and complete project of my BUT Informatique journey. It allowed me to apply the full range of skills accumulated over three years: advanced software architecture, full-stack Symfony development, Agile project management, software quality practices, and collaborative teamwork in a group of 4.",
-        conclusion_text_p2: "Designing the plugin system — built to respect SOLID principles while remaining open to extension — is the technical achievement I am most proud of. It demonstrates my ability to design scalable architectures that respond to complex, evolving requirements. This project, deployed and accessible in public alpha, is the concrete proof of my technical maturity as a web developer.",
+        conclusion_text_p2: "Designing the plugin system  built to respect SOLID principles while remaining open to extension  is the technical achievement I am most proud of. It demonstrates my ability to design scalable architectures that respond to complex, evolving requirements. This project, deployed and accessible in public alpha, is the concrete proof of my technical maturity as a web developer.",
 
         see_on_github: "View on GitHub",
         link_to_project: "Link to the project",
@@ -126,12 +126,12 @@ const translations = {
         phase_plugins_fun_title: "Plugins fun",
         phase_quality_title: "Qualité & Gestion de Projet",
 
-        plugin_bourse: "Bourse — Marché boursier complet : émission d'actions, rachat (share buyback), OPA hostile, émission d'obligations, fractionnement d'actions (split), notation de crédit (AAA → D) et dividendes. Les entreprises fictives générées aléatoirement alimentent le marché.",
-        plugin_chat: "Chat — Messagerie temps réel par polling AJAX : chat général du lobby et conversations privées entre joueurs. Un ChatController dédié gère la création et la récupération des messages.",
-        plugin_placement: "Placement des Usines — Trois types d'emplacements (Locality, Low Costy, Premiumy) influençant les coefficients de productivité, main-d'œuvre, exploitation, marketing et construction. Impact direct sur le Compte de Résultat.",
-        plugin_rh: "Personnage RH — Marché de l'emploi avec 9 types de personnages spéciaux (Directeur RH, Manager, Coach, Chercheur, Publicitaire, Comptable, Chasseur de Têtes, Marketing, Expert Construction). Chaque personnage apporte des bonus passifs ou actifs, peut être formé pour monter en étoiles et affecte les finances.",
-        plugin_events: "Événements Aléatoires (PESTEL) — Système de gestion des risques macroéconomiques : 6 catastrophes selon le modèle PESTEL (Politique, Économique, Social, Technologique, Environnemental, Légal). Chaque catastrophe a des impacts spécifiques atténués par un indice de résilience calculé par entreprise. Système d'assurance multi-risques configurable.",
-        plugin_hippique: "Paris Hippiques — Module de divertissement permettant aux entreprises de parier sur des courses hippiques et diversifier leurs stratégies financières.",
+        plugin_bourse: "Bourse  Marché boursier complet : émission d'actions, rachat (share buyback), OPA hostile, émission d'obligations, fractionnement d'actions (split), notation de crédit (AAA → D) et dividendes. Les entreprises fictives générées aléatoirement alimentent le marché.",
+        plugin_chat: "Chat  Messagerie temps réel par polling AJAX : chat général du lobby et conversations privées entre joueurs. Un ChatController dédié gère la création et la récupération des messages.",
+        plugin_placement: "Placement des Usines  Trois types d'emplacements (Locality, Low Costy, Premiumy) influençant les coefficients de productivité, main-d'œuvre, exploitation, marketing et construction. Impact direct sur le Compte de Résultat.",
+        plugin_rh: "Personnage RH  Marché de l'emploi avec 9 types de personnages spéciaux (Directeur RH, Manager, Coach, Chercheur, Publicitaire, Comptable, Chasseur de Têtes, Marketing, Expert Construction). Chaque personnage apporte des bonus passifs ou actifs, peut être formé pour monter en étoiles et affecte les finances.",
+        plugin_events: "Événements Aléatoires (PESTEL)  Système de gestion des risques macroéconomiques : 6 catastrophes selon le modèle PESTEL (Politique, Économique, Social, Technologique, Environnemental, Légal). Chaque catastrophe a des impacts spécifiques atténués par un indice de résilience calculé par entreprise. Système d'assurance multi-risques configurable.",
+        plugin_hippique: "Paris Hippiques  Module de divertissement permettant aux entreprises de parier sur des courses hippiques et diversifier leurs stratégies financières.",
 
         quality_list: [
             "Méthodologie Agile Scrum : sprints, mêlées quotidiennes, revues et rétrospectives de sprint",
