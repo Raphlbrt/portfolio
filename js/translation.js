@@ -51,8 +51,8 @@ const translations = {
         // Future Vision Section
         future_vision: "Vision and Perspectives",
         future_vision_p1: "In my professional journey, I adopt a reflective and strategic approach while staying attentive to developments in the digital sector.",
-        future_vision_p2: "My current priority is to consolidate my knowledge in Computer Science and secure an enriching work-study program for my third year, allowing me to gain concrete professional experience.",
-        future_vision_p3: "For my future career path, I'm exploring two main options: pursuing further studies or direct professional integration. I'm particularly interested in web development and project management, two constantly evolving fields offering great growth opportunities.",
+        future_vision_p2: "Finishing my final year of BUT Informatique, I am now actively looking for my first full-time position. My dual background technical (full-stack development, DevOps, system architecture) and managerial (Technology Management & E-learning at IAE) gives me a versatile profile suited to a wide range of roles.",
+        future_vision_p3: "I am particularly drawn to web development and project management, two constantly evolving fields where I want to keep building expertise. Open to opportunities in France and internationally, I am ready to take on the challenges of a first professional experience.",
 
         // Career Cards
         short_term_goals: "Short Term Goals",
@@ -156,8 +156,8 @@ const translations = {
         // Future Vision Section
         future_vision: "Vision et Perspectives",
         future_vision_p1: "Dans mon parcours professionnel, j'adopte une approche réflexive et stratégique, tout en restant attentif aux évolutions du secteur numérique.",
-        future_vision_p2: "Ma priorité actuelle est de consolider mes acquis en BUT Informatique et de décrocher une alternance enrichissante pour ma troisième année, me permettant d'acquérir une expérience professionnelle concrète.",
-        future_vision_p3: "Pour la suite de mon parcours, j'explore deux voies principales : la poursuite d'études ou l'insertion professionnelle directe. Mon intérêt se porte particulièrement vers le développement web et la gestion de projet, deux domaines en constante évolution offrant de belles perspectives d'évolution.",
+        future_vision_p2: "En fin de troisième année de BUT Informatique, je suis désormais en recherche active de mon premier poste. Mon double parcours technique (développement full-stack, DevOps, architecture logicielle) et managérial (Licence Management Technologies et Sciences E-learning à l'IAE) me confère un profil polyvalent adapté à des environnements variés.",
+        future_vision_p3: "Mon intérêt se porte particulièrement vers le développement web et la gestion de projet, deux domaines en constante évolution où je souhaite continuer à construire mon expertise. Ouvert aux opportunités en France comme à l'international, je suis prêt à relever les défis d'une première expérience professionnelle.",
 
         // Career Cards
         short_term_goals: "Objectifs Court Terme",
