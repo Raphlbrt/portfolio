@@ -18,7 +18,7 @@ const translations = {
         download_cv: "Download CV",
         web_design: "Web design",
         descr_about_me_1:"Hello and welcome to my portfolio !",
-        descr_about_me_2:"I am currently a third-year student in the BUT Computer Science program at the IUT of Montpellier. Passionate about web development, I have developed strong skills in PHP, Java, HTML, CSS, and Docker containerization.",
+        descr_about_me_2:"Graduated from the BUT Computer Science program and a Bachelor's in Technology Management & E-learning Sciences (IAE, University of Montpellier), I have developed strong skills in PHP/Symfony, Java, HTML, CSS, TypeScript and Docker containerization. I have gained practical experience through multiple internships at the DSIN of the University of Montpellier.",
         descr_about_me_3:"Motivated, curious, and adaptable, I am always eager to take on new challenges and actively contribute to innovative projects. My goal is to continue enhancing my technical skills while engaging in enriching experiences that help me grow both professionally and personally.",
         descr_about_me_4_pre:"Beyond the technical side, I am an active member of",
         descr_about_me_4_post:", a Montpellier-based association that brings together video game enthusiasts through events promoting sharing and cultural exchange. Organising and participating in these events has strengthened my teamwork, communication and event-management skills.",
@@ -29,7 +29,7 @@ const translations = {
         title_service_frontend: "Frontend Development",
         title_service_backend: "Backend Development",
         title_service_methodology: "Development Methodologies",
-        service_frontend:"I specialize in creating intuitive and visually appealing web interfaces using HTML, CSS, and JavaScript. Through academic projects, I’ve honed my ability to design user-friendly experiences, balancing functionality and aesthetics for engaging web solutions.",
+        service_frontend:"I specialize in creating intuitive and visually appealing web interfaces using HTML, CSS, and JavaScript. Through personal and professional projects, I’ve honed my ability to design user-friendly experiences, balancing functionality and aesthetics for engaging web solutions.",
         service_backend:"With strong skills in PHP, Java, and SQL, I focus on building robust and scalable backend systems. My expertise includes handling server-side logic and database management to ensure seamless performance for dynamic web applications.",
         service_methodology:"I am familiar with tools like Git and principles such as Agile, fostering collaborative and efficient project development. My adaptability and problem-solving skills allow me to embrace frameworks like Scrum for successful project execution.",
 
@@ -56,7 +56,7 @@ const translations = {
 
         // Career Cards
         short_term_goals: "Short Term Goals",
-        short_term_description: "Academic excellence in BUT and search for a stimulating work-study program for my final year, combining theory and professional practice.",
+        short_term_description: "Actively seeking my first full-time position in web development, combining full-stack technical expertise with project management skills from my E-learning Bachelor's.",
 
         career_interests: "Professional Interests",
         career_interests_description: "Web development and project management, two complementary fields where I wish to deepen my skills and contribute to innovative projects.",
@@ -124,7 +124,7 @@ const translations = {
         download_cv: "Télécharger CV",
         web_design: "Web design",
         descr_about_me_1:"Bonjour et bienvenue sur mon portfolio !",
-        descr_about_me_2:"Je suis actuellement étudiant en troisième année de BUT Informatique à l’IUT de Montpellier. Passionné par le développement web, j’ai acquis des compétences solides en PHP, Java, HTML, CSS, ainsi qu’en conteneurisation avec Docker.",
+        descr_about_me_2:"Diplômé d’un BUT Informatique et d’une Licence Management Technologies et Sciences E-learning (IAE, Université de Montpellier), j’ai développé des compétences solides en PHP/Symfony, Java, HTML, CSS, TypeScript et en conteneurisation Docker. J’ai acquis une expérience concrète lors de plusieurs stages à la DSIN de l’Université de Montpellier.",
         descr_about_me_3:"Motivé, curieux et adaptable, je suis toujours prêt à relever de nouveaux défis et à contribuer activement à des projets innovants. Mon objectif est de continuer à développer mes compétences techniques tout en participant à des expériences enrichissantes qui me permettront de grandir, tant sur le plan professionnel que personnel.",
         descr_about_me_4_pre:"Au-delà du technique, je suis membre actif de l’association",
         descr_about_me_4_post:", basée à Montpellier, qui rassemble les passionnés de jeux vidéo autour d’événements favorisant le partage et les échanges culturels. M’impliquer dans l’organisation de ces événements a renforcé mes compétences en travail d’équipe, communication et gestion événementielle.",
@@ -135,7 +135,7 @@ const translations = {
         title_service_frontend: "Développement Frontend",
         title_service_backend: "Développement Backend",
         title_service_methodology: "Méthodes de Développement",
-        service_frontend:"Je me spécialise dans la création d’interfaces web intuitives et attrayantes en utilisant HTML, CSS et JavaScript. Grâce à des projets académiques, j’ai perfectionné ma capacité à concevoir des expériences utilisateur alliant fonctionnalité et esthétique.",
+        service_frontend:"Je me spécialise dans la création d’interfaces web intuitives et attrayantes en utilisant HTML, CSS et JavaScript. À travers des projets personnels et professionnels, j’ai perfectionné ma capacité à concevoir des expériences utilisateur alliant fonctionnalité et esthétique.",
         service_backend:"Avec de solides compétences en PHP, Java et SQL, je me concentre sur la construction de systèmes backend robustes et évolutifs. Mon expertise inclut la gestion de la logique côté serveur et des bases de données pour assurer des performances fluides aux applications web dynamiques.",
         service_methodology:"Je maîtrise des outils comme Git et applique des principes tels qu’Agile, favorisant des projets collaboratifs et efficaces. Mon adaptabilité et mes compétences en résolution de problèmes me permettent d’intégrer des cadres comme Scrum pour mener à bien les projets.",
 
@@ -161,7 +161,7 @@ const translations = {
 
         // Career Cards
         short_term_goals: "Objectifs Court Terme",
-        short_term_description: "Excellence académique en BUT et recherche d'une alternance stimulante pour ma dernière année, permettant d'allier théorie et pratique professionnelle.",
+        short_term_description: "Recherche active d'un premier poste en développement web, alliant expertise technique full-stack et compétences en gestion de projet issues de ma Licence E-learning.",
 
         career_interests: "Intérêts Professionnels",
         career_interests_description: "Développement web et gestion de projet, deux domaines complémentaires où je souhaite approfondir mes compétences et contribuer à des projets innovants.",
