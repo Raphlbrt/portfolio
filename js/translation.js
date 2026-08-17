@@ -9,7 +9,7 @@ const translations = {
 
         // Hero section
         hello_iam: "Hello, I am",
-        web_developer: "Web Developer",
+        web_developer: "Junior Developer & Project Manager",
         my_portfolio: "My Portfolio",
         contact_me: "Contact Me",
 
@@ -115,7 +115,7 @@ const translations = {
 
         // Hero section
         hello_iam: "Bonjour, je suis",
-        web_developer: "Développeur Web",
+        web_developer: "Développeur & Chef de Projet junior",
         my_portfolio: "Mon Portfolio",
         contact_me: "Me Contacter",
 
